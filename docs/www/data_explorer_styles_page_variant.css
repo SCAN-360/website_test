@@ -1,0 +1,128 @@
+
+/* Background Gradient */
+body {
+  background: linear-gradient(to bottom, #b9bacbff, #e3e5e8ff);
+  background-attachment: fixed;
+}
+
+/* Paged.js Stuff */
+
+@media screen {
+  div.quarto-title-banner {
+    display: grid;
+  }
+}
+
+@media print {
+  div.quarto-title-banner {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+ img {
+  page-break-inside: avoid;
+ }
+}
+
+/* Input Accent Color */
+
+input {
+  accent-color: orange
+}
+
+
+/* Separate Table from maps  */
+
+.comp-table {
+  margin-top: 15px;
+}
+
+/* Custom Select Inputs */
+
+select {
+  // A reset of styles, including removing the default dropdown arrow
+  appearance: none;
+  // Additional resets for further consistency
+  background-color: green;
+  border: 1px gray solid;
+  padding: 1 1em 0 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  outline: none;
+}
+
+div form {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 0.9rem !important;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+}
+
+
+/* Wrap Maps in rounded corners */
+
+div.columns {
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+}
+
+/* */
+
+.multiple .column {
+  width: 15%;
+  margin: 5px;
+}
+
+.multiple .columns {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .multiple .column {
+    width: auto;
+  }
+
+ .multiple .columns {
+   display: flex;
+   flex-direction: column;
+  }
+}
+
+h2.accordion-header {
+  margin-top: 0px;
+  padding-bottom: 0px;
+}
+
+.quarto-layout-panel {
+  margin-bottom: 0em;
+}
+
+form table {
+  width: 100%;
+  background: #eeeeee77 !important;
+
+}
+
+tr:hover {
+  background-color: #cccccc;
+}
+
+div.quarto-layout-panel
+div.quarto-layout-cell {
+ width: 45%;
+}

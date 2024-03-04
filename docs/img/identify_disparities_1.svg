@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 287.32999 98.735001"
+   version="1.1"
+   sodipodi:docname="identify_disparities_1.svg"
+   width="287.32999"
+   height="98.735001"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="8.3514286"
+     inkscape:cx="172.96442"
+     inkscape:cy="48.674307"
+     inkscape:window-width="3440"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">.cls-1,.cls-3,.cls-4,.cls-5,.cls-6{fill:none;}.cls-1,.cls-3,.cls-4,.cls-5{stroke:#fff;stroke-miterlimit:10;}.cls-1{stroke-width:3.24px;}.cls-2{fill:#fff;}.cls-3{stroke-width:2.55px;}.cls-4{stroke-linecap:round;stroke-width:1.79px;}.cls-5{stroke-width:4px;}</style>
+  </defs>
+  <title
+     id="title1">icon-identify-disparities</title>
+  <path
+     class="cls-1"
+     d="m 150.33,64.565 v 22.39 a 5.94,5.94 0 0 1 -5.94,5.94 v 0 a 5.94,5.94 0 0 1 -5.94,-5.94 v -22.39"
+     id="path1" />
+  <rect
+     class="cls-2"
+     x="-75.215004"
+     y="28.669998"
+     width="45.599998"
+     height="6.7399998"
+     transform="rotate(-90)"
+     id="rect1" />
+  <rect
+     class="cls-2"
+     x="-75.224998"
+     y="42.169998"
+     width="41.029999"
+     height="6.7399998"
+     transform="rotate(-90)"
+     id="rect2" />
+  <rect
+     class="cls-2"
+     x="-75.224998"
+     y="54.970005"
+     width="18.02"
+     height="6.7399998"
+     transform="rotate(-90)"
+     id="rect3" />
+  <line
+     class="cls-3"
+     x1="24.42"
+     y1="74.825005"
+     x2="70.339996"
+     y2="74.825005"
+     id="line3" />
+  <path
+     class="cls-2"
+     d="m 146.11,46.585 h -3.95 l -0.77,-13.58 h 5.48 z m -4.45,2.21 h 4.95 v 4.77 h -4.95 z"
+     id="path3" />
+  <line
+     class="cls-4"
+     x1="144.37"
+     y1="0.89499998"
+     x2="144.37"
+     y2="13.435"
+     id="line4" />
+  <line
+     class="cls-4"
+     x1="172.89999"
+     y1="13.085"
+     x2="164.03"
+     y2="21.955"
+     id="line5" />
+  <line
+     class="cls-4"
+     x1="158.03"
+     y1="8.5150003"
+     x2="155.05"
+     y2="15.745"
+     id="line6" />
+  <line
+     class="cls-4"
+     x1="178.27"
+     y1="28.875"
+     x2="171.02"
+     y2="31.805"
+     id="line7" />
+  <line
+     class="cls-4"
+     x1="115.67"
+     y1="13.085"
+     x2="124.54"
+     y2="21.955"
+     id="line8" />
+  <line
+     class="cls-4"
+     x1="130.53999"
+     y1="8.5150003"
+     x2="133.53"
+     y2="15.745"
+     id="line9" />
+  <line
+     class="cls-4"
+     x1="110.3"
+     y1="28.875"
+     x2="117.55"
+     y2="31.805"
+     id="line10" />
+  <polygon
+     class="cls-5"
+     points="18.34,13.74 63.01,13.74 78.84,29.56 78.84,89.39 18.34,89.39 "
+     id="polygon10"
+     transform="translate(-2,-1.325)" />
+  <polyline
+     class="cls-5"
+     points="19.98 22.41 4 22.41 4 98.06 63.35 98.06 63.35 90.06"
+     id="polyline10"
+     transform="translate(-2,-1.325)" />
+  <polyline
+     class="cls-5"
+     points="267.35 22.41 287.33 22.41 287.33 98.06 227.99 98.06 227.99 90.06"
+     id="polyline11"
+     transform="translate(-2,-1.325)" />
+  <polyline
+     class="cls-5"
+     points="63.01 13.74 63.01 28.96 78.84 28.96"
+     id="polyline12"
+     transform="translate(-2,-1.325)" />
+  <rect
+     class="cls-2"
+     x="-75.215004"
+     y="223.33"
+     width="13.58"
+     height="6.7399998"
+     transform="rotate(-90)"
+     id="rect12" />
+  <rect
+     class="cls-2"
+     x="-75.215004"
+     y="236.84"
+     width="21.01"
+     height="6.7399998"
+     transform="rotate(-90)"
+     id="rect13" />
+  <rect
+     class="cls-2"
+     x="-75.215004"
+     y="249.64"
+     width="18.02"
+     height="6.7399998"
+     transform="rotate(-90)"
+     id="rect14" />
+  <line
+     class="cls-3"
+     x1="219.09"
+     y1="74.825005"
+     x2="265"
+     y2="74.825005"
+     id="line14" />
+  <polygon
+     class="cls-5"
+     points="213,13.74 257.67,13.74 273.5,29.56 273.5,89.39 213,89.39 "
+     id="polygon14"
+     transform="translate(-2,-1.325)" />
+  <polyline
+     class="cls-5"
+     points="257.67 13.74 257.67 28.96 273.5 28.96"
+     id="polyline14"
+     transform="translate(-2,-1.325)" />
+  <circle
+     class="cls-1"
+     cx="144.33"
+     cy="43.395"
+     r="21.5"
+     id="circle14" />
+  <path
+     class="cls-1"
+     d="m 138,72.065 a 19.38,19.38 0 0 0 6.33,1.67 c 2.67,0 6,-1.83 6,-1.83"
+     id="path14" />
+  <circle
+     class="cls-1"
+     cx="58.830002"
+     cy="41.895"
+     r="4"
+     id="circle15" />
+  <line
+     class="cls-1"
+     x1="62.830002"
+     y1="41.895"
+     x2="121.83"
+     y2="41.895"
+     id="line15" />
+  <circle
+     class="cls-1"
+     cx="227.92"
+     cy="41.895"
+     r="4"
+     id="circle16" />
+  <line
+     class="cls-1"
+     x1="223.92"
+     y1="41.895"
+     x2="164.92"
+     y2="41.895"
+     id="line16" />
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>icon-identify-disparities</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

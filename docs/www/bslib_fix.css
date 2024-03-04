@@ -1,0 +1,107 @@
+div.col_wrap div.bslib-column-wrap {
+  display: grid;
+}
+
+
+.bslib-full-screen {
+ position:fixed;
+ inset:3.5rem 1rem 1rem;
+ height:auto !important;
+ width:auto !important;
+ z-index:1070
+}
+.bslib-full-screen-enter {
+ display:none;
+ position:absolute;
+ bottom:1px;
+ right:3px;
+ margin:0.5rem;
+ padding:0.55rem !important;
+ font-size:.8rem;
+ cursor:pointer;
+ opacity:.6;
+ color:rgba(var(--bs-body-bg-rgb), 1);
+ z-index:1070
+}
+.bslib-full-screen-enter:hover {
+ opacity:1
+}
+.card:hover:not(.bslib-full-screen) .bslib-full-screen-enter,
+.well:hover:not(.bslib-full-screen) .bslib-full-screen-enter {
+ display:block
+}
+@media (max-width: 575.98px) {
+ .bslib-full-screen-enter {
+  display:none !important
+ }
+}
+.bslib-full-screen-exit {
+ position:relative;
+ top:1.35rem;
+ font-size:0.9rem;
+ cursor:pointer;
+ text-decoration:none;
+ display:flex;
+ float:right;
+ margin-right:2.15rem;
+ align-items:center;
+ color:rgba(var(--bs-body-bg-rgb), 0.8)
+}
+.bslib-full-screen-exit:hover {
+ color:rgba(var(--bs-body-bg-rgb), 1)
+}
+.bslib-full-screen-exit svg {
+ margin-left:0.5rem;
+ font-size:1.5rem
+}
+#bslib-full-screen-overlay {
+ position:fixed;
+ inset:0;
+ background-color:rgba(var(--bs-body-color-rgb), 0.6);
+ z-index:1069
+}
+.bslib-value-box .value-box-grid {
+ grid-template-columns:var(--bslib-value-box-widths)
+}
+.bslib-value-box .value-box-showcase {
+ align-items:center;
+ justify-content:center;
+ margin-top:auto;
+ margin-bottom:auto;
+ padding:1rem;
+ max-height:var(--bslib-value-box-max-height)
+}
+.bslib-value-box .value-box-showcase .bi,
+.bslib-value-box .value-box-showcase .fa {
+ opacity:.85
+}
+.bslib-value-box .value-box-showcase .bi {
+ font-size:5rem
+}
+.bslib-value-box .value-box-showcase .fa {
+ font-size:4rem
+}
+.bslib-value-box .value-box-showcase.showcase-top-right {
+ align-items:end;
+ padding-left:0;
+ padding-bottom:0
+}
+.bslib-value-box .value-box-area {
+ justify-content:center;
+ padding:1.5rem 1rem;
+ font-size:.9rem;
+ font-weight:500
+}
+.bslib-value-box .value-box-area * {
+ color:inherit;
+ margin-bottom:0;
+ margin-top:0
+}
+
+
+
+.bslib-column-wrap {
+ display:grid !important;
+ gap:1rem;
+ height:var(--bslib-column-wrap-height)
+}
