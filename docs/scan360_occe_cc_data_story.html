@@ -6,8 +6,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Megan Donovan">
+<meta name="author" content="Till Krenz">
+<meta name="author" content="Ming Lee">
+<meta name="author" content="Jen Posner">
+<meta name="author" content="Erin Kobetz">
 
-<title>SCAN360 - Explore Data</title>
+<title>SCAN360 - Cancer Incidence and Climate Change: A Case Study of Miami-Dade County</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,16 +71,23 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #f47321;
+      }
+</style>
 
 
 <link rel="stylesheet" href="www/styles.css">
 <link rel="stylesheet" href="www/bslib_fix.css">
+<link rel="stylesheet" href="www/data_explorer_styles_page_variant.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -118,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-data-stories">    
         <li>
-    <a class="dropdown-item" href="./cc_race_cancer.html">
+    <a class="dropdown-item" href="./scan360_occe_cc_data_story.html">
  <span class="dropdown-text">Cancer, Climate Change and Race</span></a>
   </li>  
     </ul>
@@ -152,38 +164,159 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><strong>Cancer Incidence and Climate Change: A Case Study of Miami-Dade County</strong></h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Authors</div>
+      <div class="quarto-title-meta-contents">
+               <p>Megan Donovan </p>
+               <p>Till Krenz </p>
+               <p>Ming Lee </p>
+               <p>Jen Posner </p>
+               <p>Erin Kobetz </p>
+            </div>
+    </div>
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Explore Data</h1>
+
+
+
+
+<div class="cell" data-layout-align="center">
+<style type="text/css">
+#main-img-left {
+  width: 20%;
+  left: 0.5in;
+  top: 40%;
+  position: absolute;
+}
+#main-img-center {
+  width: 20%;
+  left: calc(36in * 0.42);
+  top: 40%;
+  position: absolute;
+}
+#main-img-right {
+  width: 20%;
+  right: 0.5in;
+  top: 40%;
+  position: absolute;
+}
+</style>
 </div>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>The symptoms of certain types of health conditions (e.g., cardiovascular) can be exacerbated by climate change. Historically disinvested neighborhoods with large concentrations of low-income residents tend to have the highest surface temperatures. The inequitable distribution of impacts from extreme temperatures causes the most vulnerable populations to experience the most adverse health impacts. A primary example is the variance in tree cover that provides physical protection from the sun’s harmful ultraviolet (UV) rays. This study investigates the geographic, socio-economic disparities of extreme heat alongside cancer incidence in Miami-Dade County (MDC). Skin cancer incidence from the Florida Cancer Data System (FCDS) was overlaid with tree canopy and imperviousness raster data from the Multi-Resolution Land Characteristics (MRLC) consortium to represent extreme heat exposure. An increase in cancer incidence was spatially correlated with a decrease in tree canopy and an increase in imperviousness. We identify the need for increased tree canopy in low-income areas of MDC with low tree canopy coverage to mitigate the exposure to UV rays that cause skin cancer.</p>
+</section>
+<section id="methods-data-sources" class="level1">
+<h1>Methods &amp; Data Sources</h1>
+<section id="climate-environmental-data" class="level2">
+<h2 class="anchored" data-anchor-id="climate-environmental-data">Climate / Environmental Data</h2>
+<p>Tree Canopy Coverage (2016) and Imperviousness (2019) data for the US is available from the National Land Cover Database (NLCD) as 30m raster images, hosted by MLRC. From the raster images we extract the average values for Tree Canopy Coverage and Imperviousness for Census Tracts in (South-)Florida. Extreme Heat data comes from the ISS ECOSTRESS satellite for the time range 2011-2020 and was prepared by the UM GIS Librarian Abraham Parrish.</p>
+</section>
+<section id="cancer-rates" class="level2">
+<h2 class="anchored" data-anchor-id="cancer-rates">Cancer Rates</h2>
+<p>Cancer rates are calculated based on cancer registry data obtained from the FCDS. The rates are calculated over the period from 2015 to 2019.</p>
+</section>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
+<ul>
+<li>Canopy and Imperviousness are negatively correlated.
+<ul>
+<li>Areas with high imperviousness tend to have low tree canopy coverage.</li>
+<li>Also, undeveloped naturally plain areas, like the Everglades, have low tree canopy AND low imperviousness.</li>
+</ul></li>
+</ul>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="scan360_occe_cc_data_story_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+<figcaption>Average Amount of Tree Canopy Coverage and Imperviousness, Miami-Dade County, by Census Tract</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li>While there is no correlation to observe between the climate change indicators and cancer rates for all cancer types combined, cancers such as skin cancer, genital and urinary tract show some significant interactions.</li>
+<li>Skin cancer rates are slightly increased in areas where little tree canopy coverage exists.</li>
+<li>Vulva and urinary organs are also increased when less coverage.</li>
+<li>Imperviousness and extreme heat seem to have a negative impact on several types of cancer.
+<ul>
+<li>What we observe he can most likely be explained by
+<ul>
+<li>young age of people living in areas with high temperatures/imperviousness</li>
+<li>~high temperatures are actually so hot that humans seek protection from it</li>
+</ul></li>
+</ul></li>
+</ul>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="scan360_occe_cc_data_story_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+<figcaption>Age-Adjusted Cancer Rates (All Cancers), Miami-Dade County, by Census Tract</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="scan360_occe_cc_data_story_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+<figcaption>Correlation Table, Climate Change and Cancer Rates, Pearsons R, Miami-Dade County, by Census Tracts</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="limitations" class="level1">
+<h1>Limitations</h1>
+<section id="temperature" class="level2">
+<h2 class="anchored" data-anchor-id="temperature">Temperature</h2>
+<ul>
+<li>surface temperature different from experienced</li>
+<li>housing and ac can provide mitigation</li>
+</ul>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+</section>
+</section>
+<section id="next-steps" class="level1">
+<h1>Next Steps</h1>
+<ul>
+<li>Include SDOH</li>
+<li>Can we show that race an amplifier for the negative effects of climate change, in South-Florida.</li>
+<li>Extend analysis to all catchment area counties and all of Florida.
+<ul>
+<li>For modelling all of US would make most sense.</li>
+</ul></li>
+</ul>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>About this site</p>
-<p>{r} 1 + 1</p>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
