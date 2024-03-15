@@ -644,49 +644,41 @@ Trend
 </div>
 </div>
 </div>
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb15" data-startfrom="253" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 252;"><span id="cb15-253"><a href="#cb15-253" aria-hidden="true" tabindex="-1"></a>map2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div id="ojs-cell-15" data-nodetype="expression">
-
-</div>
-</div>
-</div>
 <div class="accordion-item">
 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 Measure
 </button>
 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
 <div class="accordion-body">
-<div class="sourceCode cell-code hidden" id="cb16" data-startfrom="267" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 266;"><span id="cb16-267"><a href="#cb16-267" aria-hidden="true" tabindex="-1"></a>viewof metric_group_right <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(metric_groups<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> metric_groups[<span class="dv">0</span>]})</span>
-<span id="cb16-268"><a href="#cb16-268" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-269"><a href="#cb16-269" aria-hidden="true" tabindex="-1"></a>viewof metric_right <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(metrics_right<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> metrics_right[<span class="dv">1</span>]})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb15" data-startfrom="262" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 261;"><span id="cb15-262"><a href="#cb15-262" aria-hidden="true" tabindex="-1"></a>viewof metric_group_right <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(metric_groups<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> metric_groups[<span class="dv">0</span>]})</span>
+<span id="cb15-263"><a href="#cb15-263" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-264"><a href="#cb15-264" aria-hidden="true" tabindex="-1"></a>viewof metric_right <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(metrics_right<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> metrics_right[<span class="dv">1</span>]})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell quarto-layout-panel" data-layout-nrow="1">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="ojs-cell-16-1" data-nodetype="declaration">
+<div id="ojs-cell-15-1" data-nodetype="declaration">
 
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="ojs-cell-16-2" data-nodetype="declaration">
+<div id="ojs-cell-15-2" data-nodetype="declaration">
 
 </div>
 </div>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb17" data-startfrom="272" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 271;"><span id="cb17-272"><a href="#cb17-272" aria-hidden="true" tabindex="-1"></a>{<span class="cf">if</span>(categories_right<span class="op">.</span><span class="at">length</span><span class="op">&gt;</span><span class="dv">1</span>){<span class="cf">return</span> <span class="fu">html</span><span class="vs">`</span><span class="sc">${</span>viewof category_right<span class="sc">}</span><span class="vs">`</span>} <span class="cf">else</span> {<span class="cf">return</span> <span class="fu">html</span><span class="vs">``</span>}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb16" data-startfrom="267" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 266;"><span id="cb16-267"><a href="#cb16-267" aria-hidden="true" tabindex="-1"></a>{<span class="cf">if</span>(categories_right<span class="op">.</span><span class="at">length</span><span class="op">&gt;</span><span class="dv">1</span>){<span class="cf">return</span> <span class="fu">html</span><span class="vs">`</span><span class="sc">${</span>viewof category_right<span class="sc">}</span><span class="vs">`</span>} <span class="cf">else</span> {<span class="cf">return</span> <span class="fu">html</span><span class="vs">``</span>}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<div id="ojs-cell-17" data-nodetype="expression">
+<div id="ojs-cell-16" data-nodetype="expression">
 
 </div>
 </div>
 </div>
 <div class="cell hidden">
-<div class="sourceCode cell-code hidden" id="cb18" data-startfrom="277" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 276;"><span id="cb18-277"><a href="#cb18-277" aria-hidden="true" tabindex="-1"></a>viewof category_right <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(categories_right<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="vs">`</span><span class="sc">${</span>category_label_right<span class="sc">}</span><span class="vs">`</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> categories_right[<span class="dv">0</span>]})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb17" data-startfrom="272" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 271;"><span id="cb17-272"><a href="#cb17-272" aria-hidden="true" tabindex="-1"></a>viewof category_right <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(categories_right<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="vs">`</span><span class="sc">${</span>category_label_right<span class="sc">}</span><span class="vs">`</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> categories_right[<span class="dv">0</span>]})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display hidden">
-<div id="ojs-cell-18" data-nodetype="declaration">
+<div id="ojs-cell-17" data-nodetype="declaration">
 
 </div>
 </div>
@@ -701,11 +693,68 @@ Filter
 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
 <div class="accordion-body">
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb19" data-startfrom="292" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 291;"><span id="cb19-292"><a href="#cb19-292" aria-hidden="true" tabindex="-1"></a>viewof filter_age_right <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>([<span class="st">"All"</span><span class="op">,</span> <span class="st">"&lt;20"</span><span class="op">,</span> <span class="st">"20-64"</span><span class="op">,</span> <span class="st">"65+"</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Age"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="st">"All"</span>})</span>
-<span id="cb19-293"><a href="#cb19-293" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-294"><a href="#cb19-294" aria-hidden="true" tabindex="-1"></a>viewof filter_sex_right <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>([<span class="st">"All"</span><span class="op">,</span> <span class="st">"Female"</span><span class="op">,</span> <span class="st">"Male"</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Sex"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="st">"All"</span>})</span>
-<span id="cb19-295"><a href="#cb19-295" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-296"><a href="#cb19-296" aria-hidden="true" tabindex="-1"></a>viewof filter_race_ethnicity_right <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>([<span class="st">"All"</span><span class="op">,</span> <span class="st">"Black"</span><span class="op">,</span> <span class="st">"Hispanic"</span><span class="op">,</span> <span class="st">"White"</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Race/Ethnicity"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="st">"All"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb18" data-startfrom="287" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 286;"><span id="cb18-287"><a href="#cb18-287" aria-hidden="true" tabindex="-1"></a>viewof filter_age_right <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>([<span class="st">"All"</span><span class="op">,</span> <span class="st">"&lt;20"</span><span class="op">,</span> <span class="st">"20-64"</span><span class="op">,</span> <span class="st">"65+"</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Age"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="st">"All"</span>})</span>
+<span id="cb18-288"><a href="#cb18-288" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-289"><a href="#cb18-289" aria-hidden="true" tabindex="-1"></a>viewof filter_sex_right <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>([<span class="st">"All"</span><span class="op">,</span> <span class="st">"Female"</span><span class="op">,</span> <span class="st">"Male"</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Sex"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="st">"All"</span>})</span>
+<span id="cb18-290"><a href="#cb18-290" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-291"><a href="#cb18-291" aria-hidden="true" tabindex="-1"></a>viewof filter_race_ethnicity_right <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>([<span class="st">"All"</span><span class="op">,</span> <span class="st">"Black"</span><span class="op">,</span> <span class="st">"Hispanic"</span><span class="op">,</span> <span class="st">"White"</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Race/Ethnicity"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="st">"All"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-18-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-18-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-18-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+Trend
+</button>
+<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb19" data-startfrom="306" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 305;"><span id="cb19-306"><a href="#cb19-306" aria-hidden="true" tabindex="-1"></a>min_val_right <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">min</span>(<span class="op">...</span>aq<span class="op">.</span><span class="fu">from</span>(trend_data_right)<span class="op">.</span><span class="fu">array</span>(<span class="st">"value"</span>))</span>
+<span id="cb19-307"><a href="#cb19-307" aria-hidden="true" tabindex="-1"></a>domain_min_right <span class="op">=</span> <span class="fu">get_lower_pad</span>(min_val)</span>
+<span id="cb19-308"><a href="#cb19-308" aria-hidden="true" tabindex="-1"></a>max_val_right <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">max</span>(<span class="op">...</span>aq<span class="op">.</span><span class="fu">from</span>(trend_data_right)<span class="op">.</span><span class="fu">array</span>(<span class="st">"value"</span>))</span>
+<span id="cb19-309"><a href="#cb19-309" aria-hidden="true" tabindex="-1"></a>domain_max_right <span class="op">=</span> <span class="fu">get_upper_pad</span>(max_val)</span>
+<span id="cb19-310"><a href="#cb19-310" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-311"><a href="#cb19-311" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb19-312"><a href="#cb19-312" aria-hidden="true" tabindex="-1"></a>  <span class="dt">height</span><span class="op">:</span> <span class="dv">200</span><span class="op">,</span></span>
+<span id="cb19-313"><a href="#cb19-313" aria-hidden="true" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [domain_min<span class="op">,</span> domain_max]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
+<span id="cb19-314"><a href="#cb19-314" aria-hidden="true" tabindex="-1"></a>  <span class="dt">color</span><span class="op">:</span> {<span class="dt">scheme</span><span class="op">:</span> <span class="st">"Greens"</span><span class="op">,</span> <span class="dt">domain</span><span class="op">:</span> [<span class="dv">400</span><span class="op">,</span> <span class="dv">450</span>]}<span class="op">,</span></span>
+<span id="cb19-315"><a href="#cb19-315" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb19-316"><a href="#cb19-316" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">ruleY</span>([<span class="bu">Math</span><span class="op">.</span><span class="fu">min</span>(<span class="op">...</span>aq<span class="op">.</span><span class="fu">from</span>(trend_data_right)<span class="op">.</span><span class="fu">array</span>(<span class="st">"value"</span>)) <span class="op">-</span> <span class="dv">100</span>])<span class="op">,</span></span>
+<span id="cb19-317"><a href="#cb19-317" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">barY</span>(trend_data_right<span class="op">,</span> {</span>
+<span id="cb19-318"><a href="#cb19-318" aria-hidden="true" tabindex="-1"></a>      <span class="dt">x</span><span class="op">:</span> <span class="st">"year"</span><span class="op">,</span></span>
+<span id="cb19-319"><a href="#cb19-319" aria-hidden="true" tabindex="-1"></a>      <span class="dt">y</span><span class="op">:</span> <span class="st">"value"</span><span class="op">,</span></span>
+<span id="cb19-320"><a href="#cb19-320" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fill</span><span class="op">:</span> <span class="st">"value"</span><span class="op">,</span></span>
+<span id="cb19-321"><a href="#cb19-321" aria-hidden="true" tabindex="-1"></a>      <span class="dt">clip</span><span class="op">:</span> <span class="kw">true</span></span>
+<span id="cb19-322"><a href="#cb19-322" aria-hidden="true" tabindex="-1"></a>    })<span class="op">,</span></span>
+<span id="cb19-323"><a href="#cb19-323" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">linearRegressionY</span>(trend_data_right<span class="op">,</span> {</span>
+<span id="cb19-324"><a href="#cb19-324" aria-hidden="true" tabindex="-1"></a>      <span class="dt">x</span><span class="op">:</span> <span class="st">"year"</span><span class="op">,</span></span>
+<span id="cb19-325"><a href="#cb19-325" aria-hidden="true" tabindex="-1"></a>      <span class="dt">y</span><span class="op">:</span> <span class="st">"value"</span><span class="op">,</span></span>
+<span id="cb19-326"><a href="#cb19-326" aria-hidden="true" tabindex="-1"></a>      <span class="dt">stroke</span><span class="op">:</span> <span class="st">"green"</span><span class="op">,</span></span>
+<span id="cb19-327"><a href="#cb19-327" aria-hidden="true" tabindex="-1"></a>      <span class="dt">clip</span><span class="op">:</span> <span class="kw">true</span></span>
+<span id="cb19-328"><a href="#cb19-328" aria-hidden="true" tabindex="-1"></a>    })</span>
+<span id="cb19-329"><a href="#cb19-329" aria-hidden="true" tabindex="-1"></a>  ]</span>
+<span id="cb19-330"><a href="#cb19-330" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-19-1" data-nodetype="declaration">
@@ -727,73 +776,16 @@ Filter
 </div>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="accordion-item">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-Trend
-</button>
-<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-<div class="accordion-body">
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb20" data-startfrom="311" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 310;"><span id="cb20-311"><a href="#cb20-311" aria-hidden="true" tabindex="-1"></a>min_val_right <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">min</span>(<span class="op">...</span>aq<span class="op">.</span><span class="fu">from</span>(trend_data_right)<span class="op">.</span><span class="fu">array</span>(<span class="st">"value"</span>))</span>
-<span id="cb20-312"><a href="#cb20-312" aria-hidden="true" tabindex="-1"></a>domain_min_right <span class="op">=</span> <span class="fu">get_lower_pad</span>(min_val)</span>
-<span id="cb20-313"><a href="#cb20-313" aria-hidden="true" tabindex="-1"></a>max_val_right <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">max</span>(<span class="op">...</span>aq<span class="op">.</span><span class="fu">from</span>(trend_data_right)<span class="op">.</span><span class="fu">array</span>(<span class="st">"value"</span>))</span>
-<span id="cb20-314"><a href="#cb20-314" aria-hidden="true" tabindex="-1"></a>domain_max_right <span class="op">=</span> <span class="fu">get_upper_pad</span>(max_val)</span>
-<span id="cb20-315"><a href="#cb20-315" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-316"><a href="#cb20-316" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
-<span id="cb20-317"><a href="#cb20-317" aria-hidden="true" tabindex="-1"></a>  <span class="dt">height</span><span class="op">:</span> <span class="dv">200</span><span class="op">,</span></span>
-<span id="cb20-318"><a href="#cb20-318" aria-hidden="true" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [domain_min<span class="op">,</span> domain_max]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
-<span id="cb20-319"><a href="#cb20-319" aria-hidden="true" tabindex="-1"></a>  <span class="dt">color</span><span class="op">:</span> {<span class="dt">scheme</span><span class="op">:</span> <span class="st">"Greens"</span><span class="op">,</span> <span class="dt">domain</span><span class="op">:</span> [<span class="dv">400</span><span class="op">,</span> <span class="dv">450</span>]}<span class="op">,</span></span>
-<span id="cb20-320"><a href="#cb20-320" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
-<span id="cb20-321"><a href="#cb20-321" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">ruleY</span>([<span class="bu">Math</span><span class="op">.</span><span class="fu">min</span>(<span class="op">...</span>aq<span class="op">.</span><span class="fu">from</span>(trend_data_right)<span class="op">.</span><span class="fu">array</span>(<span class="st">"value"</span>)) <span class="op">-</span> <span class="dv">100</span>])<span class="op">,</span></span>
-<span id="cb20-322"><a href="#cb20-322" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">barY</span>(trend_data_right<span class="op">,</span> {</span>
-<span id="cb20-323"><a href="#cb20-323" aria-hidden="true" tabindex="-1"></a>      <span class="dt">x</span><span class="op">:</span> <span class="st">"year"</span><span class="op">,</span></span>
-<span id="cb20-324"><a href="#cb20-324" aria-hidden="true" tabindex="-1"></a>      <span class="dt">y</span><span class="op">:</span> <span class="st">"value"</span><span class="op">,</span></span>
-<span id="cb20-325"><a href="#cb20-325" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fill</span><span class="op">:</span> <span class="st">"value"</span><span class="op">,</span></span>
-<span id="cb20-326"><a href="#cb20-326" aria-hidden="true" tabindex="-1"></a>      <span class="dt">clip</span><span class="op">:</span> <span class="kw">true</span></span>
-<span id="cb20-327"><a href="#cb20-327" aria-hidden="true" tabindex="-1"></a>    })<span class="op">,</span></span>
-<span id="cb20-328"><a href="#cb20-328" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">linearRegressionY</span>(trend_data_right<span class="op">,</span> {</span>
-<span id="cb20-329"><a href="#cb20-329" aria-hidden="true" tabindex="-1"></a>      <span class="dt">x</span><span class="op">:</span> <span class="st">"year"</span><span class="op">,</span></span>
-<span id="cb20-330"><a href="#cb20-330" aria-hidden="true" tabindex="-1"></a>      <span class="dt">y</span><span class="op">:</span> <span class="st">"value"</span><span class="op">,</span></span>
-<span id="cb20-331"><a href="#cb20-331" aria-hidden="true" tabindex="-1"></a>      <span class="dt">stroke</span><span class="op">:</span> <span class="st">"green"</span><span class="op">,</span></span>
-<span id="cb20-332"><a href="#cb20-332" aria-hidden="true" tabindex="-1"></a>      <span class="dt">clip</span><span class="op">:</span> <span class="kw">true</span></span>
-<span id="cb20-333"><a href="#cb20-333" aria-hidden="true" tabindex="-1"></a>    })</span>
-<span id="cb20-334"><a href="#cb20-334" aria-hidden="true" tabindex="-1"></a>  ]</span>
-<span id="cb20-335"><a href="#cb20-335" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
-<div id="ojs-cell-20-1" data-nodetype="declaration">
+<div id="ojs-cell-19-4" data-nodetype="declaration">
 
 </div>
 </div>
 </div>
 <div class="cell-output cell-output-display">
 <div>
-<div id="ojs-cell-20-2" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-20-3" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-20-4" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-20-5" data-nodetype="expression">
+<div id="ojs-cell-19-5" data-nodetype="expression">
 
 </div>
 </div>
@@ -807,47 +799,95 @@ Trend
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb21" data-startfrom="365" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 364;"><span id="cb21-365"><a href="#cb21-365" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">sparkbar</span>(max<span class="op">,</span> color) {</span>
-<span id="cb21-366"><a href="#cb21-366" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> x <span class="kw">=&gt;</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;div style="</span></span>
-<span id="cb21-367"><a href="#cb21-367" aria-hidden="true" tabindex="-1"></a><span class="vs">    background: </span><span class="sc">${</span>color<span class="sc">}</span><span class="vs">;</span></span>
-<span id="cb21-368"><a href="#cb21-368" aria-hidden="true" tabindex="-1"></a><span class="vs">    width: </span><span class="sc">${</span><span class="dv">100</span> <span class="op">*</span> x <span class="op">/</span> max<span class="sc">}</span><span class="vs">%;</span></span>
-<span id="cb21-369"><a href="#cb21-369" aria-hidden="true" tabindex="-1"></a><span class="vs">    float: right;</span></span>
-<span id="cb21-370"><a href="#cb21-370" aria-hidden="true" tabindex="-1"></a><span class="vs">    padding-right: 3px;</span></span>
-<span id="cb21-371"><a href="#cb21-371" aria-hidden="true" tabindex="-1"></a><span class="vs">    box-sizing: border-box;</span></span>
-<span id="cb21-372"><a href="#cb21-372" aria-hidden="true" tabindex="-1"></a><span class="vs">    overflow: visible;</span></span>
-<span id="cb21-373"><a href="#cb21-373" aria-hidden="true" tabindex="-1"></a><span class="vs">    display: flex;</span></span>
-<span id="cb21-374"><a href="#cb21-374" aria-hidden="true" tabindex="-1"></a><span class="vs">    justify-content: end;"&gt;</span><span class="sc">${</span>x<span class="op">.</span><span class="fu">toLocaleString</span>(<span class="st">"en"</span><span class="op">,</span> {<span class="dt">minimumFractionDigits</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">maximumFractionDigits</span><span class="op">:</span> <span class="dv">2</span>})<span class="sc">}</span><span class="vs">`</span></span>
-<span id="cb21-375"><a href="#cb21-375" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb20" data-startfrom="360" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 359;"><span id="cb20-360"><a href="#cb20-360" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">sparkbar</span>(max<span class="op">,</span> color) {</span>
+<span id="cb20-361"><a href="#cb20-361" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> x <span class="kw">=&gt;</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;div style="</span></span>
+<span id="cb20-362"><a href="#cb20-362" aria-hidden="true" tabindex="-1"></a><span class="vs">    background: </span><span class="sc">${</span>color<span class="sc">}</span><span class="vs">;</span></span>
+<span id="cb20-363"><a href="#cb20-363" aria-hidden="true" tabindex="-1"></a><span class="vs">    width: </span><span class="sc">${</span><span class="dv">100</span> <span class="op">*</span> x <span class="op">/</span> max<span class="sc">}</span><span class="vs">%;</span></span>
+<span id="cb20-364"><a href="#cb20-364" aria-hidden="true" tabindex="-1"></a><span class="vs">    float: right;</span></span>
+<span id="cb20-365"><a href="#cb20-365" aria-hidden="true" tabindex="-1"></a><span class="vs">    padding-right: 3px;</span></span>
+<span id="cb20-366"><a href="#cb20-366" aria-hidden="true" tabindex="-1"></a><span class="vs">    box-sizing: border-box;</span></span>
+<span id="cb20-367"><a href="#cb20-367" aria-hidden="true" tabindex="-1"></a><span class="vs">    overflow: visible;</span></span>
+<span id="cb20-368"><a href="#cb20-368" aria-hidden="true" tabindex="-1"></a><span class="vs">    display: flex;</span></span>
+<span id="cb20-369"><a href="#cb20-369" aria-hidden="true" tabindex="-1"></a><span class="vs">    justify-content: end;"&gt;</span><span class="sc">${</span>x<span class="op">.</span><span class="fu">toLocaleString</span>(<span class="st">"en"</span><span class="op">,</span> {<span class="dt">minimumFractionDigits</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">maximumFractionDigits</span><span class="op">:</span> <span class="dv">2</span>})<span class="sc">}</span><span class="vs">`</span></span>
+<span id="cb20-370"><a href="#cb20-370" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<div id="ojs-cell-21" data-nodetype="declaration">
+<div id="ojs-cell-20" data-nodetype="declaration">
 
 </div>
 </div>
 </div>
 <div>
 <div class="cell comp-table" data-output="asis">
-<div class="sourceCode cell-code hidden" id="cb22" data-startfrom="384" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 383;"><span id="cb22-384"><a href="#cb22-384" aria-hidden="true" tabindex="-1"></a>table_data_left <span class="op">=</span> aq</span>
-<span id="cb22-385"><a href="#cb22-385" aria-hidden="true" tabindex="-1"></a>             <span class="op">.</span><span class="fu">from</span>(data_left)</span>
-<span id="cb22-386"><a href="#cb22-386" aria-hidden="true" tabindex="-1"></a>             <span class="op">.</span><span class="fu">select</span>(<span class="st">"location"</span><span class="op">,</span> <span class="st">"value"</span>)             </span>
-<span id="cb22-387"><a href="#cb22-387" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb22-388"><a href="#cb22-388" aria-hidden="true" tabindex="-1"></a>table_data_right <span class="op">=</span> aq</span>
-<span id="cb22-389"><a href="#cb22-389" aria-hidden="true" tabindex="-1"></a>             <span class="op">.</span><span class="fu">from</span>(data_right)</span>
-<span id="cb22-390"><a href="#cb22-390" aria-hidden="true" tabindex="-1"></a>             <span class="op">.</span><span class="fu">select</span>(<span class="st">"location"</span><span class="op">,</span> <span class="st">"value"</span>)</span>
-<span id="cb22-391"><a href="#cb22-391" aria-hidden="true" tabindex="-1"></a>             <span class="op">.</span><span class="fu">rename</span>({ <span class="dt">value</span><span class="op">:</span> <span class="st">'value_right'</span> })</span>
-<span id="cb22-392"><a href="#cb22-392" aria-hidden="true" tabindex="-1"></a>             </span>
-<span id="cb22-393"><a href="#cb22-393" aria-hidden="true" tabindex="-1"></a>table_data <span class="op">=</span> table_data_left<span class="op">.</span><span class="fu">join_left</span>(table_data_right)</span>
-<span id="cb22-394"><a href="#cb22-394" aria-hidden="true" tabindex="-1"></a><span class="co">//_ = Reactable.setData('ttbl', table_data.objects())</span></span>
-<span id="cb22-395"><a href="#cb22-395" aria-hidden="true" tabindex="-1"></a><span class="co">//table_data.toHTML().cat()</span></span>
-<span id="cb22-396"><a href="#cb22-396" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">table</span>(table_data<span class="op">,</span> {</span>
-<span id="cb22-397"><a href="#cb22-397" aria-hidden="true" tabindex="-1"></a>  <span class="dt">rows</span><span class="op">:</span> <span class="dv">100</span><span class="op">,</span></span>
-<span id="cb22-398"><a href="#cb22-398" aria-hidden="true" tabindex="-1"></a>  <span class="dt">format</span><span class="op">:</span> {</span>
-<span id="cb22-399"><a href="#cb22-399" aria-hidden="true" tabindex="-1"></a>  <span class="dt">value</span><span class="op">:</span> <span class="fu">sparkbar</span>(d3<span class="op">.</span><span class="fu">max</span>(table_data<span class="op">,</span> d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">value</span>)<span class="op">,</span> <span class="st">"orange"</span>)<span class="op">,</span></span>
-<span id="cb22-400"><a href="#cb22-400" aria-hidden="true" tabindex="-1"></a> <span class="dt">value_right</span><span class="op">:</span> <span class="fu">sparkbar</span>(d3<span class="op">.</span><span class="fu">max</span>(table_data<span class="op">,</span> d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">value_right</span>)<span class="op">,</span> <span class="st">"green"</span>)}<span class="op">,</span></span>
-<span id="cb22-401"><a href="#cb22-401" aria-hidden="true" tabindex="-1"></a> <span class="dt">header</span> <span class="op">:</span> {</span>
-<span id="cb22-402"><a href="#cb22-402" aria-hidden="true" tabindex="-1"></a> <span class="dt">location</span><span class="op">:</span> <span class="st">"Area"</span><span class="op">,</span></span>
-<span id="cb22-403"><a href="#cb22-403" aria-hidden="true" tabindex="-1"></a> <span class="dt">value</span><span class="op">:</span> <span class="fu">html</span><span class="vs">`</span><span class="sc">${</span>metric_left<span class="sc">}</span><span class="vs"> </span><span class="sc">${</span>metric_group_left<span class="sc">}</span><span class="vs">`</span><span class="op">,</span></span>
-<span id="cb22-404"><a href="#cb22-404" aria-hidden="true" tabindex="-1"></a> <span class="dt">value_right</span><span class="op">:</span> <span class="vs">`</span><span class="sc">${</span>metric_right<span class="sc">}</span><span class="vs"> </span><span class="sc">${</span>metric_group_right<span class="sc">}</span><span class="vs">`</span></span>
-<span id="cb22-405"><a href="#cb22-405" aria-hidden="true" tabindex="-1"></a>}})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb21" data-startfrom="379" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 378;"><span id="cb21-379"><a href="#cb21-379" aria-hidden="true" tabindex="-1"></a>table_data_left <span class="op">=</span> aq</span>
+<span id="cb21-380"><a href="#cb21-380" aria-hidden="true" tabindex="-1"></a>             <span class="op">.</span><span class="fu">from</span>(data_left)</span>
+<span id="cb21-381"><a href="#cb21-381" aria-hidden="true" tabindex="-1"></a>             <span class="op">.</span><span class="fu">select</span>(<span class="st">"location"</span><span class="op">,</span> <span class="st">"value"</span>)             </span>
+<span id="cb21-382"><a href="#cb21-382" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-383"><a href="#cb21-383" aria-hidden="true" tabindex="-1"></a>table_data_right <span class="op">=</span> aq</span>
+<span id="cb21-384"><a href="#cb21-384" aria-hidden="true" tabindex="-1"></a>             <span class="op">.</span><span class="fu">from</span>(data_right)</span>
+<span id="cb21-385"><a href="#cb21-385" aria-hidden="true" tabindex="-1"></a>             <span class="op">.</span><span class="fu">select</span>(<span class="st">"location"</span><span class="op">,</span> <span class="st">"value"</span>)</span>
+<span id="cb21-386"><a href="#cb21-386" aria-hidden="true" tabindex="-1"></a>             <span class="op">.</span><span class="fu">rename</span>({ <span class="dt">value</span><span class="op">:</span> <span class="st">'value_right'</span> })</span>
+<span id="cb21-387"><a href="#cb21-387" aria-hidden="true" tabindex="-1"></a>             </span>
+<span id="cb21-388"><a href="#cb21-388" aria-hidden="true" tabindex="-1"></a>table_data <span class="op">=</span> table_data_left<span class="op">.</span><span class="fu">join_left</span>(table_data_right)</span>
+<span id="cb21-389"><a href="#cb21-389" aria-hidden="true" tabindex="-1"></a><span class="co">//_ = Reactable.setData('ttbl', table_data.objects())</span></span>
+<span id="cb21-390"><a href="#cb21-390" aria-hidden="true" tabindex="-1"></a><span class="co">//table_data.toHTML().cat()</span></span>
+<span id="cb21-391"><a href="#cb21-391" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">table</span>(table_data<span class="op">,</span> {</span>
+<span id="cb21-392"><a href="#cb21-392" aria-hidden="true" tabindex="-1"></a>  <span class="dt">rows</span><span class="op">:</span> <span class="dv">100</span><span class="op">,</span></span>
+<span id="cb21-393"><a href="#cb21-393" aria-hidden="true" tabindex="-1"></a>  <span class="dt">format</span><span class="op">:</span> {</span>
+<span id="cb21-394"><a href="#cb21-394" aria-hidden="true" tabindex="-1"></a>  <span class="dt">value</span><span class="op">:</span> <span class="fu">sparkbar</span>(d3<span class="op">.</span><span class="fu">max</span>(table_data<span class="op">,</span> d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">value</span>)<span class="op">,</span> <span class="st">"orange"</span>)<span class="op">,</span></span>
+<span id="cb21-395"><a href="#cb21-395" aria-hidden="true" tabindex="-1"></a> <span class="dt">value_right</span><span class="op">:</span> <span class="fu">sparkbar</span>(d3<span class="op">.</span><span class="fu">max</span>(table_data<span class="op">,</span> d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">value_right</span>)<span class="op">,</span> <span class="st">"green"</span>)}<span class="op">,</span></span>
+<span id="cb21-396"><a href="#cb21-396" aria-hidden="true" tabindex="-1"></a> <span class="dt">header</span> <span class="op">:</span> {</span>
+<span id="cb21-397"><a href="#cb21-397" aria-hidden="true" tabindex="-1"></a> <span class="dt">location</span><span class="op">:</span> <span class="st">"Area"</span><span class="op">,</span></span>
+<span id="cb21-398"><a href="#cb21-398" aria-hidden="true" tabindex="-1"></a> <span class="dt">value</span><span class="op">:</span> <span class="fu">html</span><span class="vs">`</span><span class="sc">${</span>metric_left<span class="sc">}</span><span class="vs"> </span><span class="sc">${</span>metric_group_left<span class="sc">}</span><span class="vs">`</span><span class="op">,</span></span>
+<span id="cb21-399"><a href="#cb21-399" aria-hidden="true" tabindex="-1"></a> <span class="dt">value_right</span><span class="op">:</span> <span class="vs">`</span><span class="sc">${</span>metric_right<span class="sc">}</span><span class="vs"> </span><span class="sc">${</span>metric_group_right<span class="sc">}</span><span class="vs">`</span></span>
+<span id="cb21-400"><a href="#cb21-400" aria-hidden="true" tabindex="-1"></a>}})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-21-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-21-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-21-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-21-4" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<section id="appendix" class="level2 hidden">
+<h2 class="hidden anchored" data-anchor-id="appendix">Appendix</h2>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb22" data-startfrom="412" data-source-offset="-104"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 411;"><span id="cb22-412"><a href="#cb22-412" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { get_magnitude_order<span class="op">,</span> get_lower_pad<span class="op">,</span> get_upper_pad } <span class="im">from</span> <span class="st">"./www/helper.js"</span></span>
+<span id="cb22-413"><a href="#cb22-413" aria-hidden="true" tabindex="-1"></a><span class="co">//import { sparkbar } from "./www/helper.js"</span></span>
+<span id="cb22-414"><a href="#cb22-414" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-415"><a href="#cb22-415" aria-hidden="true" tabindex="-1"></a>bertin <span class="op">=</span> <span class="pp">require</span>(<span class="st">"bertin@latest"</span>)</span>
+<span id="cb22-416"><a href="#cb22-416" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { aq<span class="op">,</span> op } <span class="im">from</span> <span class="st">'@uwdata/arquero'</span></span>
+<span id="cb22-417"><a href="#cb22-417" aria-hidden="true" tabindex="-1"></a><span class="co">//db = await FileAttachment("./www/scan360_2.sqlite").sqlite()</span></span>
+<span id="cb22-418"><a href="#cb22-418" aria-hidden="true" tabindex="-1"></a>db <span class="op">=</span> DuckDBClient<span class="op">.</span><span class="fu">of</span>({</span>
+<span id="cb22-419"><a href="#cb22-419" aria-hidden="true" tabindex="-1"></a>  <span class="dt">scan360_data</span><span class="op">:</span> <span class="fu">FileAttachment</span>(<span class="st">"data/scan360.parquet"</span>)<span class="op">,</span></span>
+<span id="cb22-420"><a href="#cb22-420" aria-hidden="true" tabindex="-1"></a>  <span class="dt">menu_structure</span><span class="op">:</span> <span class="fu">FileAttachment</span>(<span class="st">"data/menu_structure.parquet"</span>)</span>
+<span id="cb22-421"><a href="#cb22-421" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb22-422"><a href="#cb22-422" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-423"><a href="#cb22-423" aria-hidden="true" tabindex="-1"></a>metric_groups_obj <span class="op">=</span> db<span class="op">.</span><span class="fu">query</span>(<span class="vs">`SELECT DISTINCT metric_group FROM menu_structure`</span>)</span>
+<span id="cb22-424"><a href="#cb22-424" aria-hidden="true" tabindex="-1"></a>metric_groups <span class="op">=</span> metric_groups_obj<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">metric_group</span>)</span>
+<span id="cb22-425"><a href="#cb22-425" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-426"><a href="#cb22-426" aria-hidden="true" tabindex="-1"></a>county_geo <span class="op">=</span> d3<span class="op">.</span><span class="fu">json</span>(<span class="st">"./data/county_fl.geojson"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-22-1" data-nodetype="declaration">
@@ -871,146 +911,98 @@ Trend
 </div>
 <div class="cell-output cell-output-display">
 <div>
-<div id="ojs-cell-22-4" data-nodetype="expression">
-
-</div>
-</div>
-</div>
-</div>
-</div>
-<section id="appendix" class="level2 hidden">
-<h2 class="hidden anchored" data-anchor-id="appendix">Appendix</h2>
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb23" data-startfrom="417" data-source-offset="-104"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 416;"><span id="cb23-417"><a href="#cb23-417" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { get_magnitude_order<span class="op">,</span> get_lower_pad<span class="op">,</span> get_upper_pad } <span class="im">from</span> <span class="st">"./www/helper.js"</span></span>
-<span id="cb23-418"><a href="#cb23-418" aria-hidden="true" tabindex="-1"></a><span class="co">//import { sparkbar } from "./www/helper.js"</span></span>
-<span id="cb23-419"><a href="#cb23-419" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-420"><a href="#cb23-420" aria-hidden="true" tabindex="-1"></a>bertin <span class="op">=</span> <span class="pp">require</span>(<span class="st">"bertin@latest"</span>)</span>
-<span id="cb23-421"><a href="#cb23-421" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { aq<span class="op">,</span> op } <span class="im">from</span> <span class="st">'@uwdata/arquero'</span></span>
-<span id="cb23-422"><a href="#cb23-422" aria-hidden="true" tabindex="-1"></a><span class="co">//db = await FileAttachment("./www/scan360_2.sqlite").sqlite()</span></span>
-<span id="cb23-423"><a href="#cb23-423" aria-hidden="true" tabindex="-1"></a>db <span class="op">=</span> DuckDBClient<span class="op">.</span><span class="fu">of</span>({</span>
-<span id="cb23-424"><a href="#cb23-424" aria-hidden="true" tabindex="-1"></a>  <span class="dt">scan360_data</span><span class="op">:</span> <span class="fu">FileAttachment</span>(<span class="st">"data/scan360.parquet"</span>)<span class="op">,</span></span>
-<span id="cb23-425"><a href="#cb23-425" aria-hidden="true" tabindex="-1"></a>  <span class="dt">menu_structure</span><span class="op">:</span> <span class="fu">FileAttachment</span>(<span class="st">"data/menu_structure.parquet"</span>)</span>
-<span id="cb23-426"><a href="#cb23-426" aria-hidden="true" tabindex="-1"></a>})</span>
-<span id="cb23-427"><a href="#cb23-427" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-428"><a href="#cb23-428" aria-hidden="true" tabindex="-1"></a>metric_groups_obj <span class="op">=</span> db<span class="op">.</span><span class="fu">query</span>(<span class="vs">`SELECT DISTINCT metric_group FROM menu_structure`</span>)</span>
-<span id="cb23-429"><a href="#cb23-429" aria-hidden="true" tabindex="-1"></a>metric_groups <span class="op">=</span> metric_groups_obj<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">metric_group</span>)</span>
-<span id="cb23-430"><a href="#cb23-430" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-431"><a href="#cb23-431" aria-hidden="true" tabindex="-1"></a>county_geo <span class="op">=</span> d3<span class="op">.</span><span class="fu">json</span>(<span class="st">"./data/county_fl.geojson"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-23-1" data-nodetype="declaration">
+<div id="ojs-cell-22-4" data-nodetype="declaration">
 
 </div>
 </div>
 </div>
 <div class="cell-output cell-output-display">
 <div>
-<div id="ojs-cell-23-2" data-nodetype="declaration">
+<div id="ojs-cell-22-5" data-nodetype="declaration">
 
 </div>
 </div>
 </div>
 <div class="cell-output cell-output-display">
 <div>
-<div id="ojs-cell-23-3" data-nodetype="declaration">
+<div id="ojs-cell-22-6" data-nodetype="declaration">
 
 </div>
 </div>
 </div>
 <div class="cell-output cell-output-display">
 <div>
-<div id="ojs-cell-23-4" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-23-5" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-23-6" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-23-7" data-nodetype="declaration">
+<div id="ojs-cell-22-7" data-nodetype="declaration">
 
 </div>
 </div>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb24" data-startfrom="435" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 434;"><span id="cb24-435"><a href="#cb24-435" aria-hidden="true" tabindex="-1"></a>style <span class="op">=</span> ({</span>
-<span id="cb24-436"><a href="#cb24-436" aria-hidden="true" tabindex="-1"></a>  <span class="dt">width</span><span class="op">:</span> <span class="dv">550</span><span class="op">,</span></span>
-<span id="cb24-437"><a href="#cb24-437" aria-hidden="true" tabindex="-1"></a>  <span class="dt">projection</span><span class="op">:</span> <span class="st">"NellHammer"</span><span class="op">,</span></span>
-<span id="cb24-438"><a href="#cb24-438" aria-hidden="true" tabindex="-1"></a>  <span class="dt">fill</span><span class="op">:</span> <span class="st">"#65bcdb"</span><span class="op">,</span></span>
-<span id="cb24-439"><a href="#cb24-439" aria-hidden="true" tabindex="-1"></a>  <span class="dt">fillOpacity</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span></span>
-<span id="cb24-440"><a href="#cb24-440" aria-hidden="true" tabindex="-1"></a>  <span class="dt">stroke</span><span class="op">:</span> <span class="st">"white"</span><span class="op">,</span></span>
-<span id="cb24-441"><a href="#cb24-441" aria-hidden="true" tabindex="-1"></a>  <span class="dt">strokeWidth</span><span class="op">:</span> <span class="fl">1.5</span><span class="op">,</span></span>
-<span id="cb24-442"><a href="#cb24-442" aria-hidden="true" tabindex="-1"></a>  <span class="dt">strokeOpacity</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span></span>
-<span id="cb24-443"><a href="#cb24-443" aria-hidden="true" tabindex="-1"></a>  <span class="dt">choro</span><span class="op">:</span> [<span class="st">"#a5d8ea"</span><span class="op">,</span> <span class="st">"#65bcdb"</span><span class="op">,</span> <span class="st">"#2a8eb2"</span>]<span class="op">,</span></span>
-<span id="cb24-444"><a href="#cb24-444" aria-hidden="true" tabindex="-1"></a>  <span class="dt">primary_orange</span><span class="op">:</span> <span class="st">"#ed6b05"</span><span class="op">,</span></span>
-<span id="cb24-445"><a href="#cb24-445" aria-hidden="true" tabindex="-1"></a>  <span class="dt">primary_green</span><span class="op">:</span> <span class="st">"#00502e"</span><span class="op">,</span></span>
-<span id="cb24-446"><a href="#cb24-446" aria-hidden="true" tabindex="-1"></a>  <span class="dt">choro_orange</span><span class="op">:</span> [<span class="st">"#f7bc7cff"</span><span class="op">,</span> <span class="st">"#f49d4eff"</span><span class="op">,</span> <span class="st">"#f47321ff"</span><span class="op">,</span> <span class="st">"#d45504ff"</span><span class="op">,</span> <span class="st">"#b52e18ff"</span>]<span class="op">,</span></span>
-<span id="cb24-447"><a href="#cb24-447" aria-hidden="true" tabindex="-1"></a>  <span class="dt">choro_green</span><span class="op">:</span> [<span class="st">"#c3ddcfff"</span><span class="op">,</span> <span class="st">"#77b792ff"</span><span class="op">,</span> <span class="st">"#369e66ff"</span><span class="op">,</span> <span class="st">"#016d3cff"</span><span class="op">,</span> <span class="st">"#004f2eff"</span>]<span class="op">,</span></span>
-<span id="cb24-448"><a href="#cb24-448" aria-hidden="true" tabindex="-1"></a>  <span class="dt">basemap</span><span class="op">:</span> {</span>
-<span id="cb24-449"><a href="#cb24-449" aria-hidden="true" tabindex="-1"></a>    <span class="dt">fill</span><span class="op">:</span> <span class="st">"white"</span><span class="op">,</span></span>
-<span id="cb24-450"><a href="#cb24-450" aria-hidden="true" tabindex="-1"></a>    <span class="dt">fillOpacity</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span></span>
-<span id="cb24-451"><a href="#cb24-451" aria-hidden="true" tabindex="-1"></a>    <span class="dt">strokeWidth</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span></span>
-<span id="cb24-452"><a href="#cb24-452" aria-hidden="true" tabindex="-1"></a>    <span class="dt">outline</span><span class="op">:</span> <span class="st">"#f2f2f2"</span></span>
-<span id="cb24-453"><a href="#cb24-453" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb24-454"><a href="#cb24-454" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb23" data-startfrom="430" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 429;"><span id="cb23-430"><a href="#cb23-430" aria-hidden="true" tabindex="-1"></a>style <span class="op">=</span> ({</span>
+<span id="cb23-431"><a href="#cb23-431" aria-hidden="true" tabindex="-1"></a>  <span class="dt">width</span><span class="op">:</span> <span class="dv">550</span><span class="op">,</span></span>
+<span id="cb23-432"><a href="#cb23-432" aria-hidden="true" tabindex="-1"></a>  <span class="dt">projection</span><span class="op">:</span> <span class="st">"NellHammer"</span><span class="op">,</span></span>
+<span id="cb23-433"><a href="#cb23-433" aria-hidden="true" tabindex="-1"></a>  <span class="dt">fill</span><span class="op">:</span> <span class="st">"#65bcdb"</span><span class="op">,</span></span>
+<span id="cb23-434"><a href="#cb23-434" aria-hidden="true" tabindex="-1"></a>  <span class="dt">fillOpacity</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span></span>
+<span id="cb23-435"><a href="#cb23-435" aria-hidden="true" tabindex="-1"></a>  <span class="dt">stroke</span><span class="op">:</span> <span class="st">"white"</span><span class="op">,</span></span>
+<span id="cb23-436"><a href="#cb23-436" aria-hidden="true" tabindex="-1"></a>  <span class="dt">strokeWidth</span><span class="op">:</span> <span class="fl">1.5</span><span class="op">,</span></span>
+<span id="cb23-437"><a href="#cb23-437" aria-hidden="true" tabindex="-1"></a>  <span class="dt">strokeOpacity</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span></span>
+<span id="cb23-438"><a href="#cb23-438" aria-hidden="true" tabindex="-1"></a>  <span class="dt">choro</span><span class="op">:</span> [<span class="st">"#a5d8ea"</span><span class="op">,</span> <span class="st">"#65bcdb"</span><span class="op">,</span> <span class="st">"#2a8eb2"</span>]<span class="op">,</span></span>
+<span id="cb23-439"><a href="#cb23-439" aria-hidden="true" tabindex="-1"></a>  <span class="dt">primary_orange</span><span class="op">:</span> <span class="st">"#ed6b05"</span><span class="op">,</span></span>
+<span id="cb23-440"><a href="#cb23-440" aria-hidden="true" tabindex="-1"></a>  <span class="dt">primary_green</span><span class="op">:</span> <span class="st">"#00502e"</span><span class="op">,</span></span>
+<span id="cb23-441"><a href="#cb23-441" aria-hidden="true" tabindex="-1"></a>  <span class="dt">choro_orange</span><span class="op">:</span> [<span class="st">"#f7bc7cff"</span><span class="op">,</span> <span class="st">"#f49d4eff"</span><span class="op">,</span> <span class="st">"#f47321ff"</span><span class="op">,</span> <span class="st">"#d45504ff"</span><span class="op">,</span> <span class="st">"#b52e18ff"</span>]<span class="op">,</span></span>
+<span id="cb23-442"><a href="#cb23-442" aria-hidden="true" tabindex="-1"></a>  <span class="dt">choro_green</span><span class="op">:</span> [<span class="st">"#c3ddcfff"</span><span class="op">,</span> <span class="st">"#77b792ff"</span><span class="op">,</span> <span class="st">"#369e66ff"</span><span class="op">,</span> <span class="st">"#016d3cff"</span><span class="op">,</span> <span class="st">"#004f2eff"</span>]<span class="op">,</span></span>
+<span id="cb23-443"><a href="#cb23-443" aria-hidden="true" tabindex="-1"></a>  <span class="dt">basemap</span><span class="op">:</span> {</span>
+<span id="cb23-444"><a href="#cb23-444" aria-hidden="true" tabindex="-1"></a>    <span class="dt">fill</span><span class="op">:</span> <span class="st">"white"</span><span class="op">,</span></span>
+<span id="cb23-445"><a href="#cb23-445" aria-hidden="true" tabindex="-1"></a>    <span class="dt">fillOpacity</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span></span>
+<span id="cb23-446"><a href="#cb23-446" aria-hidden="true" tabindex="-1"></a>    <span class="dt">strokeWidth</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span></span>
+<span id="cb23-447"><a href="#cb23-447" aria-hidden="true" tabindex="-1"></a>    <span class="dt">outline</span><span class="op">:</span> <span class="st">"#f2f2f2"</span></span>
+<span id="cb23-448"><a href="#cb23-448" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb23-449"><a href="#cb23-449" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<div id="ojs-cell-24" data-nodetype="declaration">
+<div id="ojs-cell-23" data-nodetype="declaration">
 
 </div>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb25" data-startfrom="460" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 459;"><span id="cb25-460"><a href="#cb25-460" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">waitForElem</span>(selector) {</span>
-<span id="cb25-461"><a href="#cb25-461" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="kw">new</span> <span class="bu">Promise</span>(resolve <span class="kw">=&gt;</span> {</span>
-<span id="cb25-462"><a href="#cb25-462" aria-hidden="true" tabindex="-1"></a>          <span class="cf">if</span> (<span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(selector)) {</span>
-<span id="cb25-463"><a href="#cb25-463" aria-hidden="true" tabindex="-1"></a>              <span class="cf">return</span> <span class="fu">resolve</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(selector))<span class="op">;</span></span>
-<span id="cb25-464"><a href="#cb25-464" aria-hidden="true" tabindex="-1"></a>          }</span>
-<span id="cb25-465"><a href="#cb25-465" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-466"><a href="#cb25-466" aria-hidden="true" tabindex="-1"></a>          <span class="kw">const</span> observer <span class="op">=</span> <span class="kw">new</span> <span class="bu">MutationObserver</span>(mutations <span class="kw">=&gt;</span> {</span>
-<span id="cb25-467"><a href="#cb25-467" aria-hidden="true" tabindex="-1"></a>              <span class="cf">if</span> (<span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(selector)) {</span>
-<span id="cb25-468"><a href="#cb25-468" aria-hidden="true" tabindex="-1"></a>                  <span class="fu">resolve</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(selector))<span class="op">;</span></span>
-<span id="cb25-469"><a href="#cb25-469" aria-hidden="true" tabindex="-1"></a>                  observer<span class="op">.</span><span class="fu">disconnect</span>()<span class="op">;</span></span>
-<span id="cb25-470"><a href="#cb25-470" aria-hidden="true" tabindex="-1"></a>              }</span>
-<span id="cb25-471"><a href="#cb25-471" aria-hidden="true" tabindex="-1"></a>          })<span class="op">;</span></span>
-<span id="cb25-472"><a href="#cb25-472" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-473"><a href="#cb25-473" aria-hidden="true" tabindex="-1"></a>          observer<span class="op">.</span><span class="fu">observe</span>(<span class="bu">document</span><span class="op">.</span><span class="at">body</span><span class="op">,</span> {</span>
-<span id="cb25-474"><a href="#cb25-474" aria-hidden="true" tabindex="-1"></a>              <span class="dt">childList</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
-<span id="cb25-475"><a href="#cb25-475" aria-hidden="true" tabindex="-1"></a>              <span class="dt">subtree</span><span class="op">:</span> <span class="kw">true</span></span>
-<span id="cb25-476"><a href="#cb25-476" aria-hidden="true" tabindex="-1"></a>          })<span class="op">;</span></span>
-<span id="cb25-477"><a href="#cb25-477" aria-hidden="true" tabindex="-1"></a>      })<span class="op">;</span></span>
-<span id="cb25-478"><a href="#cb25-478" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb25-479"><a href="#cb25-479" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-480"><a href="#cb25-480" aria-hidden="true" tabindex="-1"></a>  <span class="fu">waitForElem</span>(<span class="st">'#bertinmap'</span>)<span class="op">.</span><span class="fu">then</span>((elm) <span class="kw">=&gt;</span> {</span>
-<span id="cb25-481"><a href="#cb25-481" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">'Element is ready'</span>)<span class="op">;</span></span>
-<span id="cb25-482"><a href="#cb25-482" aria-hidden="true" tabindex="-1"></a>    <span class="co">//console.log(elm.textContent);</span></span>
-<span id="cb25-483"><a href="#cb25-483" aria-hidden="true" tabindex="-1"></a>    <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">'bertinmap'</span>)<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">'click'</span><span class="op">,</span> (<span class="bu">event</span>) <span class="kw">=&gt;</span> {</span>
-<span id="cb25-484"><a href="#cb25-484" aria-hidden="true" tabindex="-1"></a>      <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="bu">event</span><span class="op">.</span><span class="at">target</span><span class="op">.</span><span class="at">__data__</span><span class="op">.</span><span class="at">properties</span>)</span>
-<span id="cb25-485"><a href="#cb25-485" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
-<span id="cb25-486"><a href="#cb25-486" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb24" data-startfrom="455" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 454;"><span id="cb24-455"><a href="#cb24-455" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">waitForElem</span>(selector) {</span>
+<span id="cb24-456"><a href="#cb24-456" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="kw">new</span> <span class="bu">Promise</span>(resolve <span class="kw">=&gt;</span> {</span>
+<span id="cb24-457"><a href="#cb24-457" aria-hidden="true" tabindex="-1"></a>          <span class="cf">if</span> (<span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(selector)) {</span>
+<span id="cb24-458"><a href="#cb24-458" aria-hidden="true" tabindex="-1"></a>              <span class="cf">return</span> <span class="fu">resolve</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(selector))<span class="op">;</span></span>
+<span id="cb24-459"><a href="#cb24-459" aria-hidden="true" tabindex="-1"></a>          }</span>
+<span id="cb24-460"><a href="#cb24-460" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-461"><a href="#cb24-461" aria-hidden="true" tabindex="-1"></a>          <span class="kw">const</span> observer <span class="op">=</span> <span class="kw">new</span> <span class="bu">MutationObserver</span>(mutations <span class="kw">=&gt;</span> {</span>
+<span id="cb24-462"><a href="#cb24-462" aria-hidden="true" tabindex="-1"></a>              <span class="cf">if</span> (<span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(selector)) {</span>
+<span id="cb24-463"><a href="#cb24-463" aria-hidden="true" tabindex="-1"></a>                  <span class="fu">resolve</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(selector))<span class="op">;</span></span>
+<span id="cb24-464"><a href="#cb24-464" aria-hidden="true" tabindex="-1"></a>                  observer<span class="op">.</span><span class="fu">disconnect</span>()<span class="op">;</span></span>
+<span id="cb24-465"><a href="#cb24-465" aria-hidden="true" tabindex="-1"></a>              }</span>
+<span id="cb24-466"><a href="#cb24-466" aria-hidden="true" tabindex="-1"></a>          })<span class="op">;</span></span>
+<span id="cb24-467"><a href="#cb24-467" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-468"><a href="#cb24-468" aria-hidden="true" tabindex="-1"></a>          observer<span class="op">.</span><span class="fu">observe</span>(<span class="bu">document</span><span class="op">.</span><span class="at">body</span><span class="op">,</span> {</span>
+<span id="cb24-469"><a href="#cb24-469" aria-hidden="true" tabindex="-1"></a>              <span class="dt">childList</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
+<span id="cb24-470"><a href="#cb24-470" aria-hidden="true" tabindex="-1"></a>              <span class="dt">subtree</span><span class="op">:</span> <span class="kw">true</span></span>
+<span id="cb24-471"><a href="#cb24-471" aria-hidden="true" tabindex="-1"></a>          })<span class="op">;</span></span>
+<span id="cb24-472"><a href="#cb24-472" aria-hidden="true" tabindex="-1"></a>      })<span class="op">;</span></span>
+<span id="cb24-473"><a href="#cb24-473" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb24-474"><a href="#cb24-474" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-475"><a href="#cb24-475" aria-hidden="true" tabindex="-1"></a>  <span class="fu">waitForElem</span>(<span class="st">'#bertinmap'</span>)<span class="op">.</span><span class="fu">then</span>((elm) <span class="kw">=&gt;</span> {</span>
+<span id="cb24-476"><a href="#cb24-476" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">'Element is ready'</span>)<span class="op">;</span></span>
+<span id="cb24-477"><a href="#cb24-477" aria-hidden="true" tabindex="-1"></a>    <span class="co">//console.log(elm.textContent);</span></span>
+<span id="cb24-478"><a href="#cb24-478" aria-hidden="true" tabindex="-1"></a>    <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">'bertinmap'</span>)<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">'click'</span><span class="op">,</span> (<span class="bu">event</span>) <span class="kw">=&gt;</span> {</span>
+<span id="cb24-479"><a href="#cb24-479" aria-hidden="true" tabindex="-1"></a>      <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="bu">event</span><span class="op">.</span><span class="at">target</span><span class="op">.</span><span class="at">__data__</span><span class="op">.</span><span class="at">properties</span>)</span>
+<span id="cb24-480"><a href="#cb24-480" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb24-481"><a href="#cb24-481" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
-<div id="ojs-cell-25-1" data-nodetype="declaration">
+<div id="ojs-cell-24-1" data-nodetype="declaration">
 
 </div>
 </div>
 </div>
 <div class="cell-output cell-output-display">
 <div>
-<div id="ojs-cell-25-2" data-nodetype="expression">
+<div id="ojs-cell-24-2" data-nodetype="expression">
 
 </div>
 </div>
@@ -1022,7 +1014,7 @@ Trend
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImRhdGFfbGVmdCA9IGRiLnF1ZXJ5KFwiU0VMRUNUICogRlJPTSBzY2FuMzYwX2RhdGEgV0hFUkUgbWV0cmljID0gJDEgQU5EIGNhdGVnb3J5ID0gJDIgQU5EIGdlb191bml0ID0gJ2NvdW50eScgQU5EIHNleCA9ICQzIEFORCByYWNlX2V0aG5pY2l0eSA9ICQ0IEFORCBhZ2VfZ3JvdXAgPSAkNSBBTkQgeWVhciA9ICcyMDE5J1wiLCBbbWV0cmljX2xlZnQsIGNhdGVnb3J5X2xlZnQsIGZpbHRlcl9zZXhfbGVmdCwgZmlsdGVyX3JhY2VfZXRobmljaXR5X2xlZnQsIGZpbHRlcl9hZ2VfbGVmdF0pXG5cbmRhdGFfbGVmdF9nZW8gPSBiZXJ0aW4ubWVyZ2UoY291bnR5X2dlbywgXCJOQU1FTFNBRFwiLCBkYXRhX2xlZnQsIFwibG9jYXRpb25cIilcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Im1ldHJpY3NfbGVmdF9vYmogPSBkYi5xdWVyeShcIlNFTEVDVCBESVNUSU5DVCBtZXRyaWMgRlJPTSBtZW51X3N0cnVjdHVyZSBXSEVSRSBtZXRyaWNfZ3JvdXAgPSA/XCIsIFttZXRyaWNfZ3JvdXBfbGVmdF0pXG5tZXRyaWNzX2xlZnQgPSBtZXRyaWNzX2xlZnRfb2JqLm1hcChkID0+IGQubWV0cmljKVxuXG5jYXRlZ29yaWVzX2xlZnRfb2JqID0gZGIucXVlcnkoXCJTRUxFQ1QgRElTVElOQ1QgY2F0ZWdvcnkgRlJPTSBtZW51X3N0cnVjdHVyZSBXSEVSRSBtZXRyaWMgPSA/XCIsXG5bbWV0cmljX2xlZnRdKVxuY2F0ZWdvcmllc19sZWZ0ID0gY2F0ZWdvcmllc19sZWZ0X29iai5tYXAoZCA9PiBkLmNhdGVnb3J5KVxuXG5jYXRlZ29yeV9sYWJlbF9sZWZ0X29iaiA9IGRiLnF1ZXJ5KFwiU0VMRUNUIERJU1RJTkNUIGNhdGVnb3J5X2xhYmVsIEZST00gbWVudV9zdHJ1Y3R1cmUgV0hFUkUgbWV0cmljID0gP1wiLCBbbWV0cmljX2xlZnRdKVxuY2F0ZWdvcnlfbGFiZWxfbGVmdCA9IGNhdGVnb3J5X2xhYmVsX2xlZnRfb2JqLm1hcChkID0+IGQuY2F0ZWdvcnlfbGFiZWwpXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJkYXRhX3JpZ2h0ID0gZGIucXVlcnkoXCJTRUxFQ1QgKiBGUk9NIHNjYW4zNjBfZGF0YSBXSEVSRSBtZXRyaWMgPSAkMSBBTkQgY2F0ZWdvcnkgPSAkMiBBTkQgZ2VvX3VuaXQgPSAnY291bnR5JyBBTkQgc2V4ID0gJDMgQU5EIHJhY2VfZXRobmljaXR5ID0gJDQgQU5EIGFnZV9ncm91cCA9ICQ1IEFORCB5ZWFyID0gJzIwMTknXCIsIFttZXRyaWNfcmlnaHQsIGNhdGVnb3J5X3JpZ2h0LCBmaWx0ZXJfc2V4X3JpZ2h0LCBmaWx0ZXJfcmFjZV9ldGhuaWNpdHlfcmlnaHQsIGZpbHRlcl9hZ2VfcmlnaHRdKVxuXG5kYXRhX3JpZ2h0X2dlbyA9IGJlcnRpbi5tZXJnZShjb3VudHlfZ2VvLCBcIk5BTUVMU0FEXCIsIGRhdGFfcmlnaHQsIFwibG9jYXRpb25cIilcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtNCIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Im1ldHJpY3NfcmlnaHRfb2JqID0gZGIucXVlcnkoXCJTRUxFQ1QgRElTVElOQ1QgbWV0cmljIEZST00gbWVudV9zdHJ1Y3R1cmUgV0hFUkUgbWV0cmljX2dyb3VwID0gP1wiLCBbbWV0cmljX2dyb3VwX3JpZ2h0XSlcbm1ldHJpY3NfcmlnaHQgPSBtZXRyaWNzX3JpZ2h0X29iai5tYXAoZCA9PiBkLm1ldHJpYylcblxuY2F0ZWdvcmllc19yaWdodF9vYmogPSBkYi5xdWVyeShcIlNFTEVDVCBESVNUSU5DVCBjYXRlZ29yeSBGUk9NIG1lbnVfc3RydWN0dXJlIFdIRVJFIG1ldHJpYyA9ID9cIixcblttZXRyaWNfcmlnaHRdKVxuY2F0ZWdvcmllc19yaWdodCA9IGNhdGVnb3JpZXNfcmlnaHRfb2JqLm1hcChkID0+IGQuY2F0ZWdvcnkpXG5cbmNhdGVnb3J5X2xhYmVsX3JpZ2h0X29iaiA9IGRiLnF1ZXJ5KFwiU0VMRUNUIERJU1RJTkNUIGNhdGVnb3J5X2xhYmVsIEZST00gbWVudV9zdHJ1Y3R1cmUgV0hFUkUgbWV0cmljID0gP1wiLCBbbWV0cmljX3JpZ2h0XSlcbmNhdGVnb3J5X2xhYmVsX3JpZ2h0ID0gY2F0ZWdvcnlfbGFiZWxfcmlnaHRfb2JqLm1hcChkID0+IGQuY2F0ZWdvcnlfbGFiZWwpXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTUiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJ0cmVuZF9kYXRhX2xlZnQgPSBkYi5xdWVyeShcIlNFTEVDVCAqIEZST00gc2NhbjM2MF9kYXRhIFdIRVJFIG1ldHJpYyA9ICQxIEFORCBjYXRlZ29yeSA9ICQyIEFORCBnZW9fdW5pdCA9ICdjb3VudHknIEFORCBsb2NhdGlvbiA9ICdGTCcgQU5EIHNleCA9ICQzIEFORCByYWNlX2V0aG5pY2l0eSA9ICQ0IEFORCBhZ2VfZ3JvdXAgPSAkNVwiLCBbbWV0cmljX2xlZnQsIGNhdGVnb3J5X2xlZnQsIGZpbHRlcl9zZXhfbGVmdCwgZmlsdGVyX3JhY2VfZXRobmljaXR5X2xlZnQsIGZpbHRlcl9hZ2VfbGVmdF0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTYiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJ0cmVuZF9kYXRhX3JpZ2h0ID0gZGIucXVlcnkoXCJTRUxFQ1QgKiBGUk9NIHNjYW4zNjBfZGF0YSBXSEVSRSBtZXRyaWMgPSAkMSBBTkQgY2F0ZWdvcnkgPSAkMiBBTkQgZ2VvX3VuaXQgPSAnY291bnR5JyBBTkQgbG9jYXRpb24gPSAnRkwnIEFORCBzZXggPSAkMyBBTkQgcmFjZV9ldGhuaWNpdHkgPSAkNCBBTkQgYWdlX2dyb3VwID0gJDVcIiwgW21ldHJpY19yaWdodCwgY2F0ZWdvcnlfcmlnaHQsIGZpbHRlcl9zZXhfcmlnaHQsIGZpbHRlcl9yYWNlX2V0aG5pY2l0eV9yaWdodCwgZmlsdGVyX2FnZV9yaWdodF0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTciLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJzY2FuX21hcCA9IGZ1bmN0aW9uIHNjYW5fbWFwKGdlb19kYXRhLCB2YWx1ZSwgcHJpbWFyeV9jb2xvciwgY29sb3JzLCB0aXRsZSwgc291cmNlKSB7XG5cbiAgcmV0dXJuIGJlcnRpbi5kcmF3KHtcbiAgICBwYXJhbXM6IHtcbiAgICAgIGV4dGVudDogZ2VvX2RhdGEsXG4gICAgICBtYXJnaW46IDMwLFxuICAgICAgYmFja2dyb3VuZDogXCIjYmRlMWYwXCJcbiAgICB9LFxuICAgIGxheWVyczogW1xuICAgICAge1xuICAgICAgICB0eXBlOiBcImhlYWRlclwiLFxuICAgICAgICB0ZXh0OiB0aXRsZSxcbiAgICAgICAgYmFja2dyb3VuZDogcHJpbWFyeV9jb2xvcixcbiAgICAgICAgZmlsbDogXCJ3aGl0ZVwiLFxuICAgICAgICBmb250U2l6ZTogNDAsXG4gICAgICAgIGFuY2hvcjogXCJzdGFydFwiXG4gICAgICB9LFxuICAgICAvL3tcbiAgICAgLy8gIHR5cGU6IFwiZm9vdGVyXCIsXG4gICAgIC8vICB0ZXh0OiBgU0NBTjM2MCwgMjAyM1xuICAgICAvLyAgRGF0YTogRmxvcmlkYSBDYW5jZXIgRGF0YSBTeXN0ZW07IENhbGN1bGF0aW9ucyBTQ0FOMzYwYFxuICAgICAvL30sXG4gICAgICB7XG4gICAgICAgIHR5cGU6IFwibGF5ZXJcIixcbiAgICAgICAgZ2VvanNvbjogZ2VvX2RhdGEsXG4gICAgICAgIHN0cm9rZVdpZHRoOiAxLjUsXG4gICAgICAgIGZpbGw6IHtcbiAgICAgICAgICB0eXBlOiBcImNob3JvXCIsXG4gICAgICAgICAgdmFsdWVzOiB2YWx1ZSxcbiAgICAgICAgICBuYnJlYWtzOiA1LFxuICAgICAgICAgIC8vYnJlYWtzOiBbMSwgMiwgM10sXG4gICAgICAgICAgbWV0aG9kOiBcImVxdWFsXCIsXG4gICAgICAgICAgY29sb3JzOiBjb2xvcnMsXG4gICAgICAgICAgbGVnX3g6IDE4MCxcbiAgICAgICAgICBsZWdfeTogNTUwLFxuICAgICAgICAgIGxlZ193OiA0NSxcbiAgICAgICAgICBsZWdfaDogMzAsXG4gICAgICAgICAgbGVnX3JvdW5kOiAxLFxuICAgICAgICAgIGxlZ190aXRsZTogXCJBZ2UtQWRqdXN0ZWQgUmF0ZSBwZXIgMTAwLjAwMFwiLFxuICAgICAgICAgIGxlZ19mb250U2l6ZTogMjAsXG4gICAgICAgICAgbGVnX2ZvbnRTaXplMjogMTQsXG4gICAgICB9LFxuICAgICAgICBcbiAgICAgIHRvb2x0aXA6IHtcbiAgICAgICAgICBmaWVsZHM6IFtcbiAgICAgICAgICAgIGAkJHt2YWx1ZX1gLFxuICAgICAgICAgICAgXCJwZXIgMTAwLDAwMFwiLFxuICAgICAgICAgICAgXCJBZ2UtQWRqdXN0ZWQgUmF0ZVwiLFxuICAgICAgICAgICAgXCItIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIFwiLFxuICAgICAgICAgICAgXCIkTkFNRUxTQURcIlxuICAgICAgICAgIF0sXG4gICAgICAgICAgZmlsbDogXCIjZmZmZmZmXCIsXG4gICAgICAgICAgc3Ryb2tlOiBwcmltYXJ5X2NvbG9yLFxuICAgICAgICAgIHN0cm9rZVdpZHRoOiAzLFxuICAgICAgICAgIGZpbGxPcGFjaXR5OiAwLjg1LFxuICAgICAgICAgIHN0cm9rZU9wYWNpdHk6IDEsXG4gICAgICAgICAgZm9udFdlaWdodDogW1wiYm9sZFwiLCBcImxpZ2h0ZXJcIiwgXCJsaWdodGVyXCIsIFwibGlnaHRlclwiLCBcImJvbGRcIl0sXG4gICAgICAgICAgZm9udFNpemU6IFs1MCwgMTYsIDIwLCAyNSwgMzBdLFxuICAgICAgICAgIGZvbnRTdHlsZTogW1wibm9ybWFsXCIsIFwibm9ybWFsXCIsIFwibm9ybWFsXCIsIFwibm9ybWFsXCIsIFwiYm9sZFwiXSxcbiAgICAgICAgICBjb2w6IHByaW1hcnlfY29sb3JcbiAgICAgIH1cbiAgICAgICAgfSxcbiAgICAgIHsgdHlwZTogXCJzaGFkb3dcIiwgZ2VvanNvbjogZ2VvX2RhdGEsIGR4OiA1LCBkeTogNSB9LFxuICAgICAvLyB7XG4gICAgIC8vICAgdHlwZTogXCJsYXllclwiLFxuICAgICAvLyAgIGdlb2pzb246IHVzLFxuICAgICAvLyAgIGZpbGw6IFwiI2UwZDBiNlwiLFxuICAgICAvLyB9LFxuICAgICAgeyB0eXBlOiBcInNjYWxlYmFyXCIsIHVuaXRzOiBcIm1pbGVzXCIgfVxuICAgIF1cbiAgfSlcbn1cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtOCIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBtYXAxID0gc2Nhbl9tYXAoZGF0YV9sZWZ0X2dlbyxcbiAgICAgICAgYHZhbHVlYCxcbiAgICAgICAgIHN0eWxlLnByaW1hcnlfb3JhbmdlLCBcbiAgICAgICAgIHN0eWxlLmNob3JvX29yYW5nZSwgXG4gICAgICAgICBgJHtjYXRlZ29yeV9sZWZ0fTogJHttZXRyaWNfbGVmdH1gLFxuICAgICAgICAgXCJEYXRhOiAuLi5cIilcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtOSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBtZXRyaWNfZ3JvdXBfbGVmdCA9IElucHV0cy5zZWxlY3QobWV0cmljX2dyb3Vwcywge3ZhbHVlOiBtZXRyaWNfZ3JvdXBzWzBdfSlcblxudmlld29mIG1ldHJpY19sZWZ0ID0gSW5wdXRzLnNlbGVjdChtZXRyaWNzX2xlZnQsIHt2YWx1ZTogbWV0cmljc19sZWZ0WzBdfSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTAiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJ7aWYoY2F0ZWdvcmllc19sZWZ0Lmxlbmd0aD4xKXtyZXR1cm4gaHRtbGAke3ZpZXdvZiBjYXRlZ29yeV9sZWZ0fWB9IGVsc2Uge3JldHVybiBodG1sYGB9fVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0xMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBjYXRlZ29yeV9sZWZ0ID0gSW5wdXRzLnNlbGVjdChjYXRlZ29yaWVzX2xlZnQsIHtsYWJlbDogYCR7Y2F0ZWdvcnlfbGFiZWxfbGVmdH1gLCB2YWx1ZTogY2F0ZWdvcmllc19sZWZ0WzBdfSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJ2aWV3b2YgZmlsdGVyX2FnZV9sZWZ0ID0gSW5wdXRzLnJhZGlvKFtcIkFsbFwiLCBcIjwyMFwiLCBcIjIwLTY0XCIsIFwiNjUrXCJdLCB7bGFiZWw6IFwiQWdlXCIsIHZhbHVlOiBcIkFsbFwifSlcblxudmlld29mIGZpbHRlcl9zZXhfbGVmdCA9IElucHV0cy5yYWRpbyhbXCJBbGxcIiwgXCJGZW1hbGVcIiwgXCJNYWxlXCJdLCB7bGFiZWw6IFwiU2V4XCIsIHZhbHVlOiBcIkFsbFwifSlcblxudmlld29mIGZpbHRlcl9yYWNlX2V0aG5pY2l0eV9sZWZ0ID0gSW5wdXRzLnJhZGlvKFtcIkFsbFwiLCBcIkJsYWNrXCIsIFwiSGlzcGFuaWNcIiwgXCJXaGl0ZVwiXSwge2xhYmVsOiBcIlJhY2UvRXRobmljaXR5XCIsIHZhbHVlOiBcIkFsbFwifSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJtaW5fdmFsID0gTWF0aC5taW4oLi4uYXEuZnJvbSh0cmVuZF9kYXRhX2xlZnQpLmFycmF5KFwidmFsdWVcIikpXG5kb21haW5fbWluID0gZ2V0X2xvd2VyX3BhZChtaW5fdmFsKVxubWF4X3ZhbCA9IE1hdGgubWF4KC4uLmFxLmZyb20odHJlbmRfZGF0YV9sZWZ0KS5hcnJheShcInZhbHVlXCIpKVxuZG9tYWluX21heCA9IGdldF91cHBlcl9wYWQobWF4X3ZhbClcblxuUGxvdC5wbG90KHtcbiAgaGVpZ2h0OiAyMDAsXG4gIHk6IHtkb21haW46IFtkb21haW5fbWluLCBkb21haW5fbWF4XSwgZ3JpZDogdHJ1ZX0sXG4gIGNvbG9yOiB7c2NoZW1lOiBcIk9yYW5nZXNcIiwgZG9tYWluOiBbNDAwLCA0NTBdfSxcbiAgbWFya3M6IFtcbiAgICBQbG90LnJ1bGVZKFtNYXRoLm1pbiguLi5hcS5mcm9tKHRyZW5kX2RhdGFfbGVmdCkuYXJyYXkoXCJ2YWx1ZVwiKSkgLSAxMDBdKSxcbiAgICBQbG90LmJhclkodHJlbmRfZGF0YV9sZWZ0LCB7XG4gICAgICB4OiBcInllYXJcIixcbiAgICAgIHk6IFwidmFsdWVcIixcbiAgICAgIGZpbGw6IFwidmFsdWVcIixcbiAgICAgIGNsaXA6IHRydWVcbiAgICB9KSxcbiAgICBQbG90LmxpbmVhclJlZ3Jlc3Npb25ZKHRyZW5kX2RhdGFfbGVmdCwge1xuICAgICAgeDogXCJ5ZWFyXCIsXG4gICAgICB5OiBcInZhbHVlXCIsXG4gICAgICBzdHJva2U6IFwiZ3JlZW5cIixcbiAgICAgIGNsaXA6IHRydWVcbiAgICB9KVxuICBdXG59KVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0xNCIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBtYXAyID0gc2Nhbl9tYXAoZGF0YV9yaWdodF9nZW8sXG4gICAgICAgIGB2YWx1ZWAsXG4gICAgICAgICBzdHlsZS5wcmltYXJ5X2dyZWVuLCBcbiAgICAgICAgIHN0eWxlLmNob3JvX2dyZWVuLCBcbiAgICAgICAgIGAke2NhdGVnb3J5X3JpZ2h0fTogJHttZXRyaWNfcmlnaHR9YCxcbiAgICAgICAgIFwiRGF0YTogLi4uXCIpXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTE1IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoibWFwMlxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0xNiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBtZXRyaWNfZ3JvdXBfcmlnaHQgPSBJbnB1dHMuc2VsZWN0KG1ldHJpY19ncm91cHMsIHt2YWx1ZTogbWV0cmljX2dyb3Vwc1swXX0pXG5cbnZpZXdvZiBtZXRyaWNfcmlnaHQgPSBJbnB1dHMuc2VsZWN0KG1ldHJpY3NfcmlnaHQsIHt2YWx1ZTogbWV0cmljc19yaWdodFsxXX0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTE3IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoie2lmKGNhdGVnb3JpZXNfcmlnaHQubGVuZ3RoPjEpe3JldHVybiBodG1sYCR7dmlld29mIGNhdGVnb3J5X3JpZ2h0fWB9IGVsc2Uge3JldHVybiBodG1sYGB9fVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0xOCIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBjYXRlZ29yeV9yaWdodCA9IElucHV0cy5zZWxlY3QoY2F0ZWdvcmllc19yaWdodCwge2xhYmVsOiBgJHtjYXRlZ29yeV9sYWJlbF9yaWdodH1gLCB2YWx1ZTogY2F0ZWdvcmllc19yaWdodFswXX0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTE5IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoidmlld29mIGZpbHRlcl9hZ2VfcmlnaHQgPSBJbnB1dHMucmFkaW8oW1wiQWxsXCIsIFwiPDIwXCIsIFwiMjAtNjRcIiwgXCI2NStcIl0sIHtsYWJlbDogXCJBZ2VcIiwgdmFsdWU6IFwiQWxsXCJ9KVxuXG52aWV3b2YgZmlsdGVyX3NleF9yaWdodCA9IElucHV0cy5yYWRpbyhbXCJBbGxcIiwgXCJGZW1hbGVcIiwgXCJNYWxlXCJdLCB7bGFiZWw6IFwiU2V4XCIsIHZhbHVlOiBcIkFsbFwifSlcblxudmlld29mIGZpbHRlcl9yYWNlX2V0aG5pY2l0eV9yaWdodCA9IElucHV0cy5yYWRpbyhbXCJBbGxcIiwgXCJCbGFja1wiLCBcIkhpc3BhbmljXCIsIFwiV2hpdGVcIl0sIHtsYWJlbDogXCJSYWNlL0V0aG5pY2l0eVwiLCB2YWx1ZTogXCJBbGxcIn0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTIwIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoibWluX3ZhbF9yaWdodCA9IE1hdGgubWluKC4uLmFxLmZyb20odHJlbmRfZGF0YV9yaWdodCkuYXJyYXkoXCJ2YWx1ZVwiKSlcbmRvbWFpbl9taW5fcmlnaHQgPSBnZXRfbG93ZXJfcGFkKG1pbl92YWwpXG5tYXhfdmFsX3JpZ2h0ID0gTWF0aC5tYXgoLi4uYXEuZnJvbSh0cmVuZF9kYXRhX3JpZ2h0KS5hcnJheShcInZhbHVlXCIpKVxuZG9tYWluX21heF9yaWdodCA9IGdldF91cHBlcl9wYWQobWF4X3ZhbClcblxuUGxvdC5wbG90KHtcbiAgaGVpZ2h0OiAyMDAsXG4gIHk6IHtkb21haW46IFtkb21haW5fbWluLCBkb21haW5fbWF4XSwgZ3JpZDogdHJ1ZX0sXG4gIGNvbG9yOiB7c2NoZW1lOiBcIkdyZWVuc1wiLCBkb21haW46IFs0MDAsIDQ1MF19LFxuICBtYXJrczogW1xuICAgIFBsb3QucnVsZVkoW01hdGgubWluKC4uLmFxLmZyb20odHJlbmRfZGF0YV9yaWdodCkuYXJyYXkoXCJ2YWx1ZVwiKSkgLSAxMDBdKSxcbiAgICBQbG90LmJhclkodHJlbmRfZGF0YV9yaWdodCwge1xuICAgICAgeDogXCJ5ZWFyXCIsXG4gICAgICB5OiBcInZhbHVlXCIsXG4gICAgICBmaWxsOiBcInZhbHVlXCIsXG4gICAgICBjbGlwOiB0cnVlXG4gICAgfSksXG4gICAgUGxvdC5saW5lYXJSZWdyZXNzaW9uWSh0cmVuZF9kYXRhX3JpZ2h0LCB7XG4gICAgICB4OiBcInllYXJcIixcbiAgICAgIHk6IFwidmFsdWVcIixcbiAgICAgIHN0cm9rZTogXCJncmVlblwiLFxuICAgICAgY2xpcDogdHJ1ZVxuICAgIH0pXG4gIF1cbn0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTIxIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiZnVuY3Rpb24gc3BhcmtiYXIobWF4LCBjb2xvcikge1xuICByZXR1cm4geCA9PiBodGwuaHRtbGA8ZGl2IHN0eWxlPVwiXG4gICAgYmFja2dyb3VuZDogJHtjb2xvcn07XG4gICAgd2lkdGg6ICR7MTAwICogeCAvIG1heH0lO1xuICAgIGZsb2F0OiByaWdodDtcbiAgICBwYWRkaW5nLXJpZ2h0OiAzcHg7XG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogZW5kO1wiPiR7eC50b0xvY2FsZVN0cmluZyhcImVuXCIsIHttaW5pbXVtRnJhY3Rpb25EaWdpdHM6IDIsIG1heGltdW1GcmFjdGlvbkRpZ2l0czogMn0pfWBcbn1cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMjIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJ0YWJsZV9kYXRhX2xlZnQgPSBhcVxuICAgICAgICAgICAgIC5mcm9tKGRhdGFfbGVmdClcbiAgICAgICAgICAgICAuc2VsZWN0KFwibG9jYXRpb25cIiwgXCJ2YWx1ZVwiKSAgICAgICAgICAgICBcblxudGFibGVfZGF0YV9yaWdodCA9IGFxXG4gICAgICAgICAgICAgLmZyb20oZGF0YV9yaWdodClcbiAgICAgICAgICAgICAuc2VsZWN0KFwibG9jYXRpb25cIiwgXCJ2YWx1ZVwiKVxuICAgICAgICAgICAgIC5yZW5hbWUoeyB2YWx1ZTogJ3ZhbHVlX3JpZ2h0JyB9KVxuICAgICAgICAgICAgIFxudGFibGVfZGF0YSA9IHRhYmxlX2RhdGFfbGVmdC5qb2luX2xlZnQodGFibGVfZGF0YV9yaWdodClcbi8vXyA9IFJlYWN0YWJsZS5zZXREYXRhKCd0dGJsJywgdGFibGVfZGF0YS5vYmplY3RzKCkpXG4vL3RhYmxlX2RhdGEudG9IVE1MKCkuY2F0KClcbklucHV0cy50YWJsZSh0YWJsZV9kYXRhLCB7XG4gIHJvd3M6IDEwMCxcbiAgZm9ybWF0OiB7XG4gIHZhbHVlOiBzcGFya2JhcihkMy5tYXgodGFibGVfZGF0YSwgZCA9PiBkLnZhbHVlKSwgXCJvcmFuZ2VcIiksXG4gdmFsdWVfcmlnaHQ6IHNwYXJrYmFyKGQzLm1heCh0YWJsZV9kYXRhLCBkID0+IGQudmFsdWVfcmlnaHQpLCBcImdyZWVuXCIpfSxcbiBoZWFkZXIgOiB7XG4gbG9jYXRpb246IFwiQXJlYVwiLFxuIHZhbHVlOiBodG1sYCR7bWV0cmljX2xlZnR9ICR7bWV0cmljX2dyb3VwX2xlZnR9YCxcbiB2YWx1ZV9yaWdodDogYCR7bWV0cmljX3JpZ2h0fSAke21ldHJpY19ncm91cF9yaWdodH1gXG59fSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMjMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiIvL3dvcmxkID0gZDMuanNvbihcbi8vICBcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9uZW9jYXJ0by9iZXJ0aW4vbWFpbi9kYXRhL3dvcmxkLmdlb2pzb25cIlxuLy8pXG5cbmltcG9ydCB7IGdldF9tYWduaXR1ZGVfb3JkZXIsIGdldF9sb3dlcl9wYWQsIGdldF91cHBlcl9wYWQgfSBmcm9tIFwiLi93d3cvaGVscGVyLmpzXCJcbi8vaW1wb3J0IHsgc3BhcmtiYXIgfSBmcm9tIFwiLi93d3cvaGVscGVyLmpzXCJcblxuYmVydGluID0gcmVxdWlyZShcImJlcnRpbkBsYXRlc3RcIilcbmltcG9ydCB7IGFxLCBvcCB9IGZyb20gJ0B1d2RhdGEvYXJxdWVybydcbi8vZGIgPSBhd2FpdCBGaWxlQXR0YWNobWVudChcIi4vd3d3L3NjYW4zNjBfMi5zcWxpdGVcIikuc3FsaXRlKClcbmRiID0gRHVja0RCQ2xpZW50Lm9mKHtcbiAgc2NhbjM2MF9kYXRhOiBGaWxlQXR0YWNobWVudChcImRhdGEvc2NhbjM2MC5wYXJxdWV0XCIpLFxuICBtZW51X3N0cnVjdHVyZTogRmlsZUF0dGFjaG1lbnQoXCJkYXRhL21lbnVfc3RydWN0dXJlLnBhcnF1ZXRcIilcbn0pXG5cbm1ldHJpY19ncm91cHNfb2JqID0gZGIucXVlcnkoYFNFTEVDVCBESVNUSU5DVCBtZXRyaWNfZ3JvdXAgRlJPTSBtZW51X3N0cnVjdHVyZWApXG5tZXRyaWNfZ3JvdXBzID0gbWV0cmljX2dyb3Vwc19vYmoubWFwKGQgPT4gZC5tZXRyaWNfZ3JvdXApXG5cbmNvdW50eV9nZW8gPSBkMy5qc29uKFwiLi9kYXRhL2NvdW50eV9mbC5nZW9qc29uXCIpXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTI0IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoic3R5bGUgPSAoe1xuICB3aWR0aDogNTUwLFxuICBwcm9qZWN0aW9uOiBcIk5lbGxIYW1tZXJcIixcbiAgZmlsbDogXCIjNjViY2RiXCIsXG4gIGZpbGxPcGFjaXR5OiAxLFxuICBzdHJva2U6IFwid2hpdGVcIixcbiAgc3Ryb2tlV2lkdGg6IDEuNSxcbiAgc3Ryb2tlT3BhY2l0eTogMSxcbiAgY2hvcm86IFtcIiNhNWQ4ZWFcIiwgXCIjNjViY2RiXCIsIFwiIzJhOGViMlwiXSxcbiAgcHJpbWFyeV9vcmFuZ2U6IFwiI2VkNmIwNVwiLFxuICBwcmltYXJ5X2dyZWVuOiBcIiMwMDUwMmVcIixcbiAgY2hvcm9fb3JhbmdlOiBbXCIjZjdiYzdjZmZcIiwgXCIjZjQ5ZDRlZmZcIiwgXCIjZjQ3MzIxZmZcIiwgXCIjZDQ1NTA0ZmZcIiwgXCIjYjUyZTE4ZmZcIl0sXG4gIGNob3JvX2dyZWVuOiBbXCIjYzNkZGNmZmZcIiwgXCIjNzdiNzkyZmZcIiwgXCIjMzY5ZTY2ZmZcIiwgXCIjMDE2ZDNjZmZcIiwgXCIjMDA0ZjJlZmZcIl0sXG4gIGJhc2VtYXA6IHtcbiAgICBmaWxsOiBcIndoaXRlXCIsXG4gICAgZmlsbE9wYWNpdHk6IDEsXG4gICAgc3Ryb2tlV2lkdGg6IDAsXG4gICAgb3V0bGluZTogXCIjZjJmMmYyXCJcbiAgfVxufSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMjUiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJmdW5jdGlvbiB3YWl0Rm9yRWxlbShzZWxlY3Rvcikge1xuICAgICAgcmV0dXJuIG5ldyBQcm9taXNlKHJlc29sdmUgPT4ge1xuICAgICAgICAgIGlmIChkb2N1bWVudC5xdWVyeVNlbGVjdG9yKHNlbGVjdG9yKSkge1xuICAgICAgICAgICAgICByZXR1cm4gcmVzb2x2ZShkb2N1bWVudC5xdWVyeVNlbGVjdG9yKHNlbGVjdG9yKSk7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgY29uc3Qgb2JzZXJ2ZXIgPSBuZXcgTXV0YXRpb25PYnNlcnZlcihtdXRhdGlvbnMgPT4ge1xuICAgICAgICAgICAgICBpZiAoZG9jdW1lbnQucXVlcnlTZWxlY3RvcihzZWxlY3RvcikpIHtcbiAgICAgICAgICAgICAgICAgIHJlc29sdmUoZG9jdW1lbnQucXVlcnlTZWxlY3RvcihzZWxlY3RvcikpO1xuICAgICAgICAgICAgICAgICAgb2JzZXJ2ZXIuZGlzY29ubmVjdCgpO1xuICAgICAgICAgICAgICB9XG4gICAgICAgICAgfSk7XG5cbiAgICAgICAgICBvYnNlcnZlci5vYnNlcnZlKGRvY3VtZW50LmJvZHksIHtcbiAgICAgICAgICAgICAgY2hpbGRMaXN0OiB0cnVlLFxuICAgICAgICAgICAgICBzdWJ0cmVlOiB0cnVlXG4gICAgICAgICAgfSk7XG4gICAgICB9KTtcbiAgfVxuXG4gIHdhaXRGb3JFbGVtKCcjYmVydGlubWFwJykudGhlbigoZWxtKSA9PiB7XG4gICAgY29uc29sZS5sb2coJ0VsZW1lbnQgaXMgcmVhZHknKTtcbiAgICAvL2NvbnNvbGUubG9nKGVsbS50ZXh0Q29udGVudCk7XG4gICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2JlcnRpbm1hcCcpLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgKGV2ZW50KSA9PiB7XG4gICAgICBjb25zb2xlLmxvZyhldmVudC50YXJnZXQuX19kYXRhX18ucHJvcGVydGllcylcbiAgfSk7XG59KTtcblxuICAgICAgICAgICAgICAgICAgICAgICBcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnbWFwMScpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdtZXRyaWNfZ3JvdXBfbGVmdCcpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdtZXRyaWNfbGVmdCcpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdjYXRlZ29yeV9sZWZ0JykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2ZpbHRlcl9hZ2VfbGVmdCcpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdmaWx0ZXJfc2V4X2xlZnQnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnZmlsdGVyX3JhY2VfZXRobmljaXR5X2xlZnQnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnbWFwMicpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdtZXRyaWNfZ3JvdXBfcmlnaHQnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnbWV0cmljX3JpZ2h0JykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2NhdGVnb3J5X3JpZ2h0JykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2ZpbHRlcl9hZ2VfcmlnaHQnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnZmlsdGVyX3NleF9yaWdodCcpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdmaWx0ZXJfcmFjZV9ldGhuaWNpdHlfcmlnaHQnKSJ9XX0=
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImRhdGFfbGVmdCA9IGRiLnF1ZXJ5KFwiU0VMRUNUICogRlJPTSBzY2FuMzYwX2RhdGEgV0hFUkUgbWV0cmljID0gJDEgQU5EIGNhdGVnb3J5ID0gJDIgQU5EIGdlb191bml0ID0gJ2NvdW50eScgQU5EIHNleCA9ICQzIEFORCByYWNlX2V0aG5pY2l0eSA9ICQ0IEFORCBhZ2VfZ3JvdXAgPSAkNSBBTkQgeWVhciA9ICcyMDE5J1wiLCBbbWV0cmljX2xlZnQsIGNhdGVnb3J5X2xlZnQsIGZpbHRlcl9zZXhfbGVmdCwgZmlsdGVyX3JhY2VfZXRobmljaXR5X2xlZnQsIGZpbHRlcl9hZ2VfbGVmdF0pXG5cbmRhdGFfbGVmdF9nZW8gPSBiZXJ0aW4ubWVyZ2UoY291bnR5X2dlbywgXCJOQU1FTFNBRFwiLCBkYXRhX2xlZnQsIFwibG9jYXRpb25cIilcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Im1ldHJpY3NfbGVmdF9vYmogPSBkYi5xdWVyeShcIlNFTEVDVCBESVNUSU5DVCBtZXRyaWMgRlJPTSBtZW51X3N0cnVjdHVyZSBXSEVSRSBtZXRyaWNfZ3JvdXAgPSA/XCIsIFttZXRyaWNfZ3JvdXBfbGVmdF0pXG5tZXRyaWNzX2xlZnQgPSBtZXRyaWNzX2xlZnRfb2JqLm1hcChkID0+IGQubWV0cmljKVxuXG5jYXRlZ29yaWVzX2xlZnRfb2JqID0gZGIucXVlcnkoXCJTRUxFQ1QgRElTVElOQ1QgY2F0ZWdvcnkgRlJPTSBtZW51X3N0cnVjdHVyZSBXSEVSRSBtZXRyaWMgPSA/XCIsXG5bbWV0cmljX2xlZnRdKVxuY2F0ZWdvcmllc19sZWZ0ID0gY2F0ZWdvcmllc19sZWZ0X29iai5tYXAoZCA9PiBkLmNhdGVnb3J5KVxuXG5jYXRlZ29yeV9sYWJlbF9sZWZ0X29iaiA9IGRiLnF1ZXJ5KFwiU0VMRUNUIERJU1RJTkNUIGNhdGVnb3J5X2xhYmVsIEZST00gbWVudV9zdHJ1Y3R1cmUgV0hFUkUgbWV0cmljID0gP1wiLCBbbWV0cmljX2xlZnRdKVxuY2F0ZWdvcnlfbGFiZWxfbGVmdCA9IGNhdGVnb3J5X2xhYmVsX2xlZnRfb2JqLm1hcChkID0+IGQuY2F0ZWdvcnlfbGFiZWwpXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJkYXRhX3JpZ2h0ID0gZGIucXVlcnkoXCJTRUxFQ1QgKiBGUk9NIHNjYW4zNjBfZGF0YSBXSEVSRSBtZXRyaWMgPSAkMSBBTkQgY2F0ZWdvcnkgPSAkMiBBTkQgZ2VvX3VuaXQgPSAnY291bnR5JyBBTkQgc2V4ID0gJDMgQU5EIHJhY2VfZXRobmljaXR5ID0gJDQgQU5EIGFnZV9ncm91cCA9ICQ1IEFORCB5ZWFyID0gJzIwMTknXCIsIFttZXRyaWNfcmlnaHQsIGNhdGVnb3J5X3JpZ2h0LCBmaWx0ZXJfc2V4X3JpZ2h0LCBmaWx0ZXJfcmFjZV9ldGhuaWNpdHlfcmlnaHQsIGZpbHRlcl9hZ2VfcmlnaHRdKVxuXG5kYXRhX3JpZ2h0X2dlbyA9IGJlcnRpbi5tZXJnZShjb3VudHlfZ2VvLCBcIk5BTUVMU0FEXCIsIGRhdGFfcmlnaHQsIFwibG9jYXRpb25cIilcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtNCIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Im1ldHJpY3NfcmlnaHRfb2JqID0gZGIucXVlcnkoXCJTRUxFQ1QgRElTVElOQ1QgbWV0cmljIEZST00gbWVudV9zdHJ1Y3R1cmUgV0hFUkUgbWV0cmljX2dyb3VwID0gP1wiLCBbbWV0cmljX2dyb3VwX3JpZ2h0XSlcbm1ldHJpY3NfcmlnaHQgPSBtZXRyaWNzX3JpZ2h0X29iai5tYXAoZCA9PiBkLm1ldHJpYylcblxuY2F0ZWdvcmllc19yaWdodF9vYmogPSBkYi5xdWVyeShcIlNFTEVDVCBESVNUSU5DVCBjYXRlZ29yeSBGUk9NIG1lbnVfc3RydWN0dXJlIFdIRVJFIG1ldHJpYyA9ID9cIixcblttZXRyaWNfcmlnaHRdKVxuY2F0ZWdvcmllc19yaWdodCA9IGNhdGVnb3JpZXNfcmlnaHRfb2JqLm1hcChkID0+IGQuY2F0ZWdvcnkpXG5cbmNhdGVnb3J5X2xhYmVsX3JpZ2h0X29iaiA9IGRiLnF1ZXJ5KFwiU0VMRUNUIERJU1RJTkNUIGNhdGVnb3J5X2xhYmVsIEZST00gbWVudV9zdHJ1Y3R1cmUgV0hFUkUgbWV0cmljID0gP1wiLCBbbWV0cmljX3JpZ2h0XSlcbmNhdGVnb3J5X2xhYmVsX3JpZ2h0ID0gY2F0ZWdvcnlfbGFiZWxfcmlnaHRfb2JqLm1hcChkID0+IGQuY2F0ZWdvcnlfbGFiZWwpXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTUiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJ0cmVuZF9kYXRhX2xlZnQgPSBkYi5xdWVyeShcIlNFTEVDVCAqIEZST00gc2NhbjM2MF9kYXRhIFdIRVJFIG1ldHJpYyA9ICQxIEFORCBjYXRlZ29yeSA9ICQyIEFORCBnZW9fdW5pdCA9ICdjb3VudHknIEFORCBsb2NhdGlvbiA9ICdGTCcgQU5EIHNleCA9ICQzIEFORCByYWNlX2V0aG5pY2l0eSA9ICQ0IEFORCBhZ2VfZ3JvdXAgPSAkNVwiLCBbbWV0cmljX2xlZnQsIGNhdGVnb3J5X2xlZnQsIGZpbHRlcl9zZXhfbGVmdCwgZmlsdGVyX3JhY2VfZXRobmljaXR5X2xlZnQsIGZpbHRlcl9hZ2VfbGVmdF0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTYiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJ0cmVuZF9kYXRhX3JpZ2h0ID0gZGIucXVlcnkoXCJTRUxFQ1QgKiBGUk9NIHNjYW4zNjBfZGF0YSBXSEVSRSBtZXRyaWMgPSAkMSBBTkQgY2F0ZWdvcnkgPSAkMiBBTkQgZ2VvX3VuaXQgPSAnY291bnR5JyBBTkQgbG9jYXRpb24gPSAnRkwnIEFORCBzZXggPSAkMyBBTkQgcmFjZV9ldGhuaWNpdHkgPSAkNCBBTkQgYWdlX2dyb3VwID0gJDVcIiwgW21ldHJpY19yaWdodCwgY2F0ZWdvcnlfcmlnaHQsIGZpbHRlcl9zZXhfcmlnaHQsIGZpbHRlcl9yYWNlX2V0aG5pY2l0eV9yaWdodCwgZmlsdGVyX2FnZV9yaWdodF0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTciLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJzY2FuX21hcCA9IGZ1bmN0aW9uIHNjYW5fbWFwKGdlb19kYXRhLCB2YWx1ZSwgcHJpbWFyeV9jb2xvciwgY29sb3JzLCB0aXRsZSwgc291cmNlKSB7XG5cbiAgcmV0dXJuIGJlcnRpbi5kcmF3KHtcbiAgICBwYXJhbXM6IHtcbiAgICAgIGV4dGVudDogZ2VvX2RhdGEsXG4gICAgICBtYXJnaW46IDMwLFxuICAgICAgYmFja2dyb3VuZDogXCIjYmRlMWYwXCJcbiAgICB9LFxuICAgIGxheWVyczogW1xuICAgICAge1xuICAgICAgICB0eXBlOiBcImhlYWRlclwiLFxuICAgICAgICB0ZXh0OiB0aXRsZSxcbiAgICAgICAgYmFja2dyb3VuZDogcHJpbWFyeV9jb2xvcixcbiAgICAgICAgZmlsbDogXCJ3aGl0ZVwiLFxuICAgICAgICBmb250U2l6ZTogNDAsXG4gICAgICAgIGFuY2hvcjogXCJzdGFydFwiXG4gICAgICB9LFxuICAgICAvL3tcbiAgICAgLy8gIHR5cGU6IFwiZm9vdGVyXCIsXG4gICAgIC8vICB0ZXh0OiBgU0NBTjM2MCwgMjAyM1xuICAgICAvLyAgRGF0YTogRmxvcmlkYSBDYW5jZXIgRGF0YSBTeXN0ZW07IENhbGN1bGF0aW9ucyBTQ0FOMzYwYFxuICAgICAvL30sXG4gICAgICB7XG4gICAgICAgIHR5cGU6IFwibGF5ZXJcIixcbiAgICAgICAgZ2VvanNvbjogZ2VvX2RhdGEsXG4gICAgICAgIHN0cm9rZVdpZHRoOiAxLjUsXG4gICAgICAgIGZpbGw6IHtcbiAgICAgICAgICB0eXBlOiBcImNob3JvXCIsXG4gICAgICAgICAgdmFsdWVzOiB2YWx1ZSxcbiAgICAgICAgICBuYnJlYWtzOiA1LFxuICAgICAgICAgIC8vYnJlYWtzOiBbMSwgMiwgM10sXG4gICAgICAgICAgbWV0aG9kOiBcImVxdWFsXCIsXG4gICAgICAgICAgY29sb3JzOiBjb2xvcnMsXG4gICAgICAgICAgbGVnX3g6IDE4MCxcbiAgICAgICAgICBsZWdfeTogNTUwLFxuICAgICAgICAgIGxlZ193OiA0NSxcbiAgICAgICAgICBsZWdfaDogMzAsXG4gICAgICAgICAgbGVnX3JvdW5kOiAxLFxuICAgICAgICAgIGxlZ190aXRsZTogXCJBZ2UtQWRqdXN0ZWQgUmF0ZSBwZXIgMTAwLjAwMFwiLFxuICAgICAgICAgIGxlZ19mb250U2l6ZTogMjAsXG4gICAgICAgICAgbGVnX2ZvbnRTaXplMjogMTQsXG4gICAgICB9LFxuICAgICAgICBcbiAgICAgIHRvb2x0aXA6IHtcbiAgICAgICAgICBmaWVsZHM6IFtcbiAgICAgICAgICAgIGAkJHt2YWx1ZX1gLFxuICAgICAgICAgICAgXCJwZXIgMTAwLDAwMFwiLFxuICAgICAgICAgICAgXCJBZ2UtQWRqdXN0ZWQgUmF0ZVwiLFxuICAgICAgICAgICAgXCItIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIFwiLFxuICAgICAgICAgICAgXCIkTkFNRUxTQURcIlxuICAgICAgICAgIF0sXG4gICAgICAgICAgZmlsbDogXCIjZmZmZmZmXCIsXG4gICAgICAgICAgc3Ryb2tlOiBwcmltYXJ5X2NvbG9yLFxuICAgICAgICAgIHN0cm9rZVdpZHRoOiAzLFxuICAgICAgICAgIGZpbGxPcGFjaXR5OiAwLjg1LFxuICAgICAgICAgIHN0cm9rZU9wYWNpdHk6IDEsXG4gICAgICAgICAgZm9udFdlaWdodDogW1wiYm9sZFwiLCBcImxpZ2h0ZXJcIiwgXCJsaWdodGVyXCIsIFwibGlnaHRlclwiLCBcImJvbGRcIl0sXG4gICAgICAgICAgZm9udFNpemU6IFs1MCwgMTYsIDIwLCAyNSwgMzBdLFxuICAgICAgICAgIGZvbnRTdHlsZTogW1wibm9ybWFsXCIsIFwibm9ybWFsXCIsIFwibm9ybWFsXCIsIFwibm9ybWFsXCIsIFwiYm9sZFwiXSxcbiAgICAgICAgICBjb2w6IHByaW1hcnlfY29sb3JcbiAgICAgIH1cbiAgICAgICAgfSxcbiAgICAgIHsgdHlwZTogXCJzaGFkb3dcIiwgZ2VvanNvbjogZ2VvX2RhdGEsIGR4OiA1LCBkeTogNSB9LFxuICAgICAvLyB7XG4gICAgIC8vICAgdHlwZTogXCJsYXllclwiLFxuICAgICAvLyAgIGdlb2pzb246IHVzLFxuICAgICAvLyAgIGZpbGw6IFwiI2UwZDBiNlwiLFxuICAgICAvLyB9LFxuICAgICAgeyB0eXBlOiBcInNjYWxlYmFyXCIsIHVuaXRzOiBcIm1pbGVzXCIgfVxuICAgIF1cbiAgfSlcbn1cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtOCIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBtYXAxID0gc2Nhbl9tYXAoZGF0YV9sZWZ0X2dlbyxcbiAgICAgICAgYHZhbHVlYCxcbiAgICAgICAgIHN0eWxlLnByaW1hcnlfb3JhbmdlLCBcbiAgICAgICAgIHN0eWxlLmNob3JvX29yYW5nZSwgXG4gICAgICAgICBgJHtjYXRlZ29yeV9sZWZ0fTogJHttZXRyaWNfbGVmdH1gLFxuICAgICAgICAgXCJEYXRhOiAuLi5cIilcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtOSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBtZXRyaWNfZ3JvdXBfbGVmdCA9IElucHV0cy5zZWxlY3QobWV0cmljX2dyb3Vwcywge3ZhbHVlOiBtZXRyaWNfZ3JvdXBzWzBdfSlcblxudmlld29mIG1ldHJpY19sZWZ0ID0gSW5wdXRzLnNlbGVjdChtZXRyaWNzX2xlZnQsIHt2YWx1ZTogbWV0cmljc19sZWZ0WzBdfSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTAiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJ7aWYoY2F0ZWdvcmllc19sZWZ0Lmxlbmd0aD4xKXtyZXR1cm4gaHRtbGAke3ZpZXdvZiBjYXRlZ29yeV9sZWZ0fWB9IGVsc2Uge3JldHVybiBodG1sYGB9fVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0xMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBjYXRlZ29yeV9sZWZ0ID0gSW5wdXRzLnNlbGVjdChjYXRlZ29yaWVzX2xlZnQsIHtsYWJlbDogYCR7Y2F0ZWdvcnlfbGFiZWxfbGVmdH1gLCB2YWx1ZTogY2F0ZWdvcmllc19sZWZ0WzBdfSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJ2aWV3b2YgZmlsdGVyX2FnZV9sZWZ0ID0gSW5wdXRzLnJhZGlvKFtcIkFsbFwiLCBcIjwyMFwiLCBcIjIwLTY0XCIsIFwiNjUrXCJdLCB7bGFiZWw6IFwiQWdlXCIsIHZhbHVlOiBcIkFsbFwifSlcblxudmlld29mIGZpbHRlcl9zZXhfbGVmdCA9IElucHV0cy5yYWRpbyhbXCJBbGxcIiwgXCJGZW1hbGVcIiwgXCJNYWxlXCJdLCB7bGFiZWw6IFwiU2V4XCIsIHZhbHVlOiBcIkFsbFwifSlcblxudmlld29mIGZpbHRlcl9yYWNlX2V0aG5pY2l0eV9sZWZ0ID0gSW5wdXRzLnJhZGlvKFtcIkFsbFwiLCBcIkJsYWNrXCIsIFwiSGlzcGFuaWNcIiwgXCJXaGl0ZVwiXSwge2xhYmVsOiBcIlJhY2UvRXRobmljaXR5XCIsIHZhbHVlOiBcIkFsbFwifSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJtaW5fdmFsID0gTWF0aC5taW4oLi4uYXEuZnJvbSh0cmVuZF9kYXRhX2xlZnQpLmFycmF5KFwidmFsdWVcIikpXG5kb21haW5fbWluID0gZ2V0X2xvd2VyX3BhZChtaW5fdmFsKVxubWF4X3ZhbCA9IE1hdGgubWF4KC4uLmFxLmZyb20odHJlbmRfZGF0YV9sZWZ0KS5hcnJheShcInZhbHVlXCIpKVxuZG9tYWluX21heCA9IGdldF91cHBlcl9wYWQobWF4X3ZhbClcblxuUGxvdC5wbG90KHtcbiAgaGVpZ2h0OiAyMDAsXG4gIHk6IHtkb21haW46IFtkb21haW5fbWluLCBkb21haW5fbWF4XSwgZ3JpZDogdHJ1ZX0sXG4gIGNvbG9yOiB7c2NoZW1lOiBcIk9yYW5nZXNcIiwgZG9tYWluOiBbNDAwLCA0NTBdfSxcbiAgbWFya3M6IFtcbiAgICBQbG90LnJ1bGVZKFtNYXRoLm1pbiguLi5hcS5mcm9tKHRyZW5kX2RhdGFfbGVmdCkuYXJyYXkoXCJ2YWx1ZVwiKSkgLSAxMDBdKSxcbiAgICBQbG90LmJhclkodHJlbmRfZGF0YV9sZWZ0LCB7XG4gICAgICB4OiBcInllYXJcIixcbiAgICAgIHk6IFwidmFsdWVcIixcbiAgICAgIGZpbGw6IFwidmFsdWVcIixcbiAgICAgIGNsaXA6IHRydWVcbiAgICB9KSxcbiAgICBQbG90LmxpbmVhclJlZ3Jlc3Npb25ZKHRyZW5kX2RhdGFfbGVmdCwge1xuICAgICAgeDogXCJ5ZWFyXCIsXG4gICAgICB5OiBcInZhbHVlXCIsXG4gICAgICBzdHJva2U6IFwiZ3JlZW5cIixcbiAgICAgIGNsaXA6IHRydWVcbiAgICB9KVxuICBdXG59KVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0xNCIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBtYXAyID0gc2Nhbl9tYXAoZGF0YV9yaWdodF9nZW8sXG4gICAgICAgIGB2YWx1ZWAsXG4gICAgICAgICBzdHlsZS5wcmltYXJ5X2dyZWVuLCBcbiAgICAgICAgIHN0eWxlLmNob3JvX2dyZWVuLCBcbiAgICAgICAgIGAke2NhdGVnb3J5X3JpZ2h0fTogJHttZXRyaWNfcmlnaHR9YCxcbiAgICAgICAgIFwiRGF0YTogLi4uXCIpXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTE1IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoidmlld29mIG1ldHJpY19ncm91cF9yaWdodCA9IElucHV0cy5zZWxlY3QobWV0cmljX2dyb3Vwcywge3ZhbHVlOiBtZXRyaWNfZ3JvdXBzWzBdfSlcblxudmlld29mIG1ldHJpY19yaWdodCA9IElucHV0cy5zZWxlY3QobWV0cmljc19yaWdodCwge3ZhbHVlOiBtZXRyaWNzX3JpZ2h0WzFdfSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTYiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJ7aWYoY2F0ZWdvcmllc19yaWdodC5sZW5ndGg+MSl7cmV0dXJuIGh0bWxgJHt2aWV3b2YgY2F0ZWdvcnlfcmlnaHR9YH0gZWxzZSB7cmV0dXJuIGh0bWxgYH19XG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTE3IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoidmlld29mIGNhdGVnb3J5X3JpZ2h0ID0gSW5wdXRzLnNlbGVjdChjYXRlZ29yaWVzX3JpZ2h0LCB7bGFiZWw6IGAke2NhdGVnb3J5X2xhYmVsX3JpZ2h0fWAsIHZhbHVlOiBjYXRlZ29yaWVzX3JpZ2h0WzBdfSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTgiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJ2aWV3b2YgZmlsdGVyX2FnZV9yaWdodCA9IElucHV0cy5yYWRpbyhbXCJBbGxcIiwgXCI8MjBcIiwgXCIyMC02NFwiLCBcIjY1K1wiXSwge2xhYmVsOiBcIkFnZVwiLCB2YWx1ZTogXCJBbGxcIn0pXG5cbnZpZXdvZiBmaWx0ZXJfc2V4X3JpZ2h0ID0gSW5wdXRzLnJhZGlvKFtcIkFsbFwiLCBcIkZlbWFsZVwiLCBcIk1hbGVcIl0sIHtsYWJlbDogXCJTZXhcIiwgdmFsdWU6IFwiQWxsXCJ9KVxuXG52aWV3b2YgZmlsdGVyX3JhY2VfZXRobmljaXR5X3JpZ2h0ID0gSW5wdXRzLnJhZGlvKFtcIkFsbFwiLCBcIkJsYWNrXCIsIFwiSGlzcGFuaWNcIiwgXCJXaGl0ZVwiXSwge2xhYmVsOiBcIlJhY2UvRXRobmljaXR5XCIsIHZhbHVlOiBcIkFsbFwifSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTkiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJtaW5fdmFsX3JpZ2h0ID0gTWF0aC5taW4oLi4uYXEuZnJvbSh0cmVuZF9kYXRhX3JpZ2h0KS5hcnJheShcInZhbHVlXCIpKVxuZG9tYWluX21pbl9yaWdodCA9IGdldF9sb3dlcl9wYWQobWluX3ZhbClcbm1heF92YWxfcmlnaHQgPSBNYXRoLm1heCguLi5hcS5mcm9tKHRyZW5kX2RhdGFfcmlnaHQpLmFycmF5KFwidmFsdWVcIikpXG5kb21haW5fbWF4X3JpZ2h0ID0gZ2V0X3VwcGVyX3BhZChtYXhfdmFsKVxuXG5QbG90LnBsb3Qoe1xuICBoZWlnaHQ6IDIwMCxcbiAgeToge2RvbWFpbjogW2RvbWFpbl9taW4sIGRvbWFpbl9tYXhdLCBncmlkOiB0cnVlfSxcbiAgY29sb3I6IHtzY2hlbWU6IFwiR3JlZW5zXCIsIGRvbWFpbjogWzQwMCwgNDUwXX0sXG4gIG1hcmtzOiBbXG4gICAgUGxvdC5ydWxlWShbTWF0aC5taW4oLi4uYXEuZnJvbSh0cmVuZF9kYXRhX3JpZ2h0KS5hcnJheShcInZhbHVlXCIpKSAtIDEwMF0pLFxuICAgIFBsb3QuYmFyWSh0cmVuZF9kYXRhX3JpZ2h0LCB7XG4gICAgICB4OiBcInllYXJcIixcbiAgICAgIHk6IFwidmFsdWVcIixcbiAgICAgIGZpbGw6IFwidmFsdWVcIixcbiAgICAgIGNsaXA6IHRydWVcbiAgICB9KSxcbiAgICBQbG90LmxpbmVhclJlZ3Jlc3Npb25ZKHRyZW5kX2RhdGFfcmlnaHQsIHtcbiAgICAgIHg6IFwieWVhclwiLFxuICAgICAgeTogXCJ2YWx1ZVwiLFxuICAgICAgc3Ryb2tlOiBcImdyZWVuXCIsXG4gICAgICBjbGlwOiB0cnVlXG4gICAgfSlcbiAgXVxufSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMjAiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJmdW5jdGlvbiBzcGFya2JhcihtYXgsIGNvbG9yKSB7XG4gIHJldHVybiB4ID0+IGh0bC5odG1sYDxkaXYgc3R5bGU9XCJcbiAgICBiYWNrZ3JvdW5kOiAke2NvbG9yfTtcbiAgICB3aWR0aDogJHsxMDAgKiB4IC8gbWF4fSU7XG4gICAgZmxvYXQ6IHJpZ2h0O1xuICAgIHBhZGRpbmctcmlnaHQ6IDNweDtcbiAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBlbmQ7XCI+JHt4LnRvTG9jYWxlU3RyaW5nKFwiZW5cIiwge21pbmltdW1GcmFjdGlvbkRpZ2l0czogMiwgbWF4aW11bUZyYWN0aW9uRGlnaXRzOiAyfSl9YFxufVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InRhYmxlX2RhdGFfbGVmdCA9IGFxXG4gICAgICAgICAgICAgLmZyb20oZGF0YV9sZWZ0KVxuICAgICAgICAgICAgIC5zZWxlY3QoXCJsb2NhdGlvblwiLCBcInZhbHVlXCIpICAgICAgICAgICAgIFxuXG50YWJsZV9kYXRhX3JpZ2h0ID0gYXFcbiAgICAgICAgICAgICAuZnJvbShkYXRhX3JpZ2h0KVxuICAgICAgICAgICAgIC5zZWxlY3QoXCJsb2NhdGlvblwiLCBcInZhbHVlXCIpXG4gICAgICAgICAgICAgLnJlbmFtZSh7IHZhbHVlOiAndmFsdWVfcmlnaHQnIH0pXG4gICAgICAgICAgICAgXG50YWJsZV9kYXRhID0gdGFibGVfZGF0YV9sZWZ0LmpvaW5fbGVmdCh0YWJsZV9kYXRhX3JpZ2h0KVxuLy9fID0gUmVhY3RhYmxlLnNldERhdGEoJ3R0YmwnLCB0YWJsZV9kYXRhLm9iamVjdHMoKSlcbi8vdGFibGVfZGF0YS50b0hUTUwoKS5jYXQoKVxuSW5wdXRzLnRhYmxlKHRhYmxlX2RhdGEsIHtcbiAgcm93czogMTAwLFxuICBmb3JtYXQ6IHtcbiAgdmFsdWU6IHNwYXJrYmFyKGQzLm1heCh0YWJsZV9kYXRhLCBkID0+IGQudmFsdWUpLCBcIm9yYW5nZVwiKSxcbiB2YWx1ZV9yaWdodDogc3BhcmtiYXIoZDMubWF4KHRhYmxlX2RhdGEsIGQgPT4gZC52YWx1ZV9yaWdodCksIFwiZ3JlZW5cIil9LFxuIGhlYWRlciA6IHtcbiBsb2NhdGlvbjogXCJBcmVhXCIsXG4gdmFsdWU6IGh0bWxgJHttZXRyaWNfbGVmdH0gJHttZXRyaWNfZ3JvdXBfbGVmdH1gLFxuIHZhbHVlX3JpZ2h0OiBgJHttZXRyaWNfcmlnaHR9ICR7bWV0cmljX2dyb3VwX3JpZ2h0fWBcbn19KVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Ii8vd29ybGQgPSBkMy5qc29uKFxuLy8gIFwiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL25lb2NhcnRvL2JlcnRpbi9tYWluL2RhdGEvd29ybGQuZ2VvanNvblwiXG4vLylcblxuaW1wb3J0IHsgZ2V0X21hZ25pdHVkZV9vcmRlciwgZ2V0X2xvd2VyX3BhZCwgZ2V0X3VwcGVyX3BhZCB9IGZyb20gXCIuL3d3dy9oZWxwZXIuanNcIlxuLy9pbXBvcnQgeyBzcGFya2JhciB9IGZyb20gXCIuL3d3dy9oZWxwZXIuanNcIlxuXG5iZXJ0aW4gPSByZXF1aXJlKFwiYmVydGluQGxhdGVzdFwiKVxuaW1wb3J0IHsgYXEsIG9wIH0gZnJvbSAnQHV3ZGF0YS9hcnF1ZXJvJ1xuLy9kYiA9IGF3YWl0IEZpbGVBdHRhY2htZW50KFwiLi93d3cvc2NhbjM2MF8yLnNxbGl0ZVwiKS5zcWxpdGUoKVxuZGIgPSBEdWNrREJDbGllbnQub2Yoe1xuICBzY2FuMzYwX2RhdGE6IEZpbGVBdHRhY2htZW50KFwiZGF0YS9zY2FuMzYwLnBhcnF1ZXRcIiksXG4gIG1lbnVfc3RydWN0dXJlOiBGaWxlQXR0YWNobWVudChcImRhdGEvbWVudV9zdHJ1Y3R1cmUucGFycXVldFwiKVxufSlcblxubWV0cmljX2dyb3Vwc19vYmogPSBkYi5xdWVyeShgU0VMRUNUIERJU1RJTkNUIG1ldHJpY19ncm91cCBGUk9NIG1lbnVfc3RydWN0dXJlYClcbm1ldHJpY19ncm91cHMgPSBtZXRyaWNfZ3JvdXBzX29iai5tYXAoZCA9PiBkLm1ldHJpY19ncm91cClcblxuY291bnR5X2dlbyA9IGQzLmpzb24oXCIuL2RhdGEvY291bnR5X2ZsLmdlb2pzb25cIilcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMjMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJzdHlsZSA9ICh7XG4gIHdpZHRoOiA1NTAsXG4gIHByb2plY3Rpb246IFwiTmVsbEhhbW1lclwiLFxuICBmaWxsOiBcIiM2NWJjZGJcIixcbiAgZmlsbE9wYWNpdHk6IDEsXG4gIHN0cm9rZTogXCJ3aGl0ZVwiLFxuICBzdHJva2VXaWR0aDogMS41LFxuICBzdHJva2VPcGFjaXR5OiAxLFxuICBjaG9ybzogW1wiI2E1ZDhlYVwiLCBcIiM2NWJjZGJcIiwgXCIjMmE4ZWIyXCJdLFxuICBwcmltYXJ5X29yYW5nZTogXCIjZWQ2YjA1XCIsXG4gIHByaW1hcnlfZ3JlZW46IFwiIzAwNTAyZVwiLFxuICBjaG9yb19vcmFuZ2U6IFtcIiNmN2JjN2NmZlwiLCBcIiNmNDlkNGVmZlwiLCBcIiNmNDczMjFmZlwiLCBcIiNkNDU1MDRmZlwiLCBcIiNiNTJlMThmZlwiXSxcbiAgY2hvcm9fZ3JlZW46IFtcIiNjM2RkY2ZmZlwiLCBcIiM3N2I3OTJmZlwiLCBcIiMzNjllNjZmZlwiLCBcIiMwMTZkM2NmZlwiLCBcIiMwMDRmMmVmZlwiXSxcbiAgYmFzZW1hcDoge1xuICAgIGZpbGw6IFwid2hpdGVcIixcbiAgICBmaWxsT3BhY2l0eTogMSxcbiAgICBzdHJva2VXaWR0aDogMCxcbiAgICBvdXRsaW5lOiBcIiNmMmYyZjJcIlxuICB9XG59KVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yNCIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImZ1bmN0aW9uIHdhaXRGb3JFbGVtKHNlbGVjdG9yKSB7XG4gICAgICByZXR1cm4gbmV3IFByb21pc2UocmVzb2x2ZSA9PiB7XG4gICAgICAgICAgaWYgKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3Ioc2VsZWN0b3IpKSB7XG4gICAgICAgICAgICAgIHJldHVybiByZXNvbHZlKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3Ioc2VsZWN0b3IpKTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICBjb25zdCBvYnNlcnZlciA9IG5ldyBNdXRhdGlvbk9ic2VydmVyKG11dGF0aW9ucyA9PiB7XG4gICAgICAgICAgICAgIGlmIChkb2N1bWVudC5xdWVyeVNlbGVjdG9yKHNlbGVjdG9yKSkge1xuICAgICAgICAgICAgICAgICAgcmVzb2x2ZShkb2N1bWVudC5xdWVyeVNlbGVjdG9yKHNlbGVjdG9yKSk7XG4gICAgICAgICAgICAgICAgICBvYnNlcnZlci5kaXNjb25uZWN0KCk7XG4gICAgICAgICAgICAgIH1cbiAgICAgICAgICB9KTtcblxuICAgICAgICAgIG9ic2VydmVyLm9ic2VydmUoZG9jdW1lbnQuYm9keSwge1xuICAgICAgICAgICAgICBjaGlsZExpc3Q6IHRydWUsXG4gICAgICAgICAgICAgIHN1YnRyZWU6IHRydWVcbiAgICAgICAgICB9KTtcbiAgICAgIH0pO1xuICB9XG5cbiAgd2FpdEZvckVsZW0oJyNiZXJ0aW5tYXAnKS50aGVuKChlbG0pID0+IHtcbiAgICBjb25zb2xlLmxvZygnRWxlbWVudCBpcyByZWFkeScpO1xuICAgIC8vY29uc29sZS5sb2coZWxtLnRleHRDb250ZW50KTtcbiAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnYmVydGlubWFwJykuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCAoZXZlbnQpID0+IHtcbiAgICAgIGNvbnNvbGUubG9nKGV2ZW50LnRhcmdldC5fX2RhdGFfXy5wcm9wZXJ0aWVzKVxuICB9KTtcbn0pO1xuXG4gICAgICAgICAgICAgICAgICAgICAgIFxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdtYXAxJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ21ldHJpY19ncm91cF9sZWZ0JykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ21ldHJpY19sZWZ0JykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2NhdGVnb3J5X2xlZnQnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnZmlsdGVyX2FnZV9sZWZ0JykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2ZpbHRlcl9zZXhfbGVmdCcpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdmaWx0ZXJfcmFjZV9ldGhuaWNpdHlfbGVmdCcpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdtYXAyJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ21ldHJpY19ncm91cF9yaWdodCcpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdtZXRyaWNfcmlnaHQnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnY2F0ZWdvcnlfcmlnaHQnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnZmlsdGVyX2FnZV9yaWdodCcpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdmaWx0ZXJfc2V4X3JpZ2h0JykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2ZpbHRlcl9yYWNlX2V0aG5pY2l0eV9yaWdodCcpIn1dfQ==
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
